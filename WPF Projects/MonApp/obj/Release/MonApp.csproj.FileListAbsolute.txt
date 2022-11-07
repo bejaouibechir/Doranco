@@ -1,0 +1,8 @@
+C:\Users\bechir\source\repos\MaSolution\MonApp\bin\Release\MonApp.exe.config
+C:\Users\bechir\source\repos\MaSolution\MonApp\bin\Release\MonApp.exe
+C:\Users\bechir\source\repos\MaSolution\MonApp\bin\Release\MonApp.pdb
+C:\Users\bechir\source\repos\MaSolution\MonApp\obj\Release\MonApp.csproj.AssemblyReference.cache
+C:\Users\bechir\source\repos\MaSolution\MonApp\obj\Release\MonApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\bechir\source\repos\MaSolution\MonApp\obj\Release\MonApp.csproj.CoreCompileInputs.cache
+C:\Users\bechir\source\repos\MaSolution\MonApp\obj\Release\MonApp.exe
+C:\Users\bechir\source\repos\MaSolution\MonApp\obj\Release\MonApp.pdb

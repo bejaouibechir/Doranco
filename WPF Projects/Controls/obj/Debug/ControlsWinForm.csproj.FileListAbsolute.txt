@@ -1,0 +1,11 @@
+C:\Users\bechir\source\repos\MaSolution\Controls\bin\Debug\Controls.exe.config
+C:\Users\bechir\source\repos\MaSolution\Controls\bin\Debug\Controls.exe
+C:\Users\bechir\source\repos\MaSolution\Controls\bin\Debug\Controls.pdb
+C:\Users\bechir\source\repos\MaSolution\Controls\obj\Debug\ControlsWinForm.csproj.AssemblyReference.cache
+C:\Users\bechir\source\repos\MaSolution\Controls\obj\Debug\ControlsWinForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\bechir\source\repos\MaSolution\Controls\obj\Debug\Controls.Form1.resources
+C:\Users\bechir\source\repos\MaSolution\Controls\obj\Debug\Controls.Properties.Resources.resources
+C:\Users\bechir\source\repos\MaSolution\Controls\obj\Debug\ControlsWinForm.csproj.GenerateResource.cache
+C:\Users\bechir\source\repos\MaSolution\Controls\obj\Debug\ControlsWinForm.csproj.CoreCompileInputs.cache
+C:\Users\bechir\source\repos\MaSolution\Controls\obj\Debug\Controls.exe
+C:\Users\bechir\source\repos\MaSolution\Controls\obj\Debug\Controls.pdb

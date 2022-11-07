@@ -1,0 +1,11 @@
+C:\Users\bechir\source\repos\MaSolution\MonApp\bin\Debug\MonApp.exe.config
+C:\Users\bechir\source\repos\MaSolution\MonApp\bin\Debug\MonApp.exe
+C:\Users\bechir\source\repos\MaSolution\MonApp\bin\Debug\MonApp.pdb
+C:\Users\bechir\source\repos\MaSolution\MonApp\obj\Debug\MonApp.csproj.AssemblyReference.cache
+C:\Users\bechir\source\repos\MaSolution\MonApp\obj\Debug\MonApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\bechir\source\repos\MaSolution\MonApp\obj\Debug\MonApp.csproj.CoreCompileInputs.cache
+C:\Users\bechir\source\repos\MaSolution\MonApp\obj\Debug\MonApp.exe
+C:\Users\bechir\source\repos\MaSolution\MonApp\obj\Debug\MonApp.pdb
+C:\Users\bechir\source\repos\MaSolution\MonApp\bin\Debug\Mathematique.dll
+C:\Users\bechir\source\repos\MaSolution\MonApp\bin\Debug\Mathematique.pdb
+C:\Users\bechir\source\repos\MaSolution\MonApp\obj\Debug\MonApp.csproj.CopyComplete
