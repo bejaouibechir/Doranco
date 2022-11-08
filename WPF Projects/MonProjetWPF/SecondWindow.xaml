@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="SecondWindow" Height="450" Width="800">
     <Grid>
-        <Button  
+        <Button Name="btn"
                 Height="20" Width="200" 
                 Margin="50,34,550,380">
             <!--Content est un Element-->

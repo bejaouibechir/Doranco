@@ -15,14 +15,13 @@ using System.Windows.Shapes;
 namespace MonProjetWPF
 {
     /// <summary>
-    /// Interaction logic for SecondWindow.xaml
+    /// Interaction logic for FifthWindow.xaml
     /// </summary>
-    public partial class SecondWindow : Window
+    public partial class FifthWindow : Window
     {
-        public SecondWindow()
+        public FifthWindow()
         {
             InitializeComponent();
-            btn.Background = new SolidColorBrush(Colors.Red);
         }
     }
 }

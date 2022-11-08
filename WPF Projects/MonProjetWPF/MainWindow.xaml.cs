@@ -23,6 +23,7 @@ namespace MonProjetWPF
         public MainWindow()
         {
             InitializeComponent();
-        }
+
+        }     
     }
 }

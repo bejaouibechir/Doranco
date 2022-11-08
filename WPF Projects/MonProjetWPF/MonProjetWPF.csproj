@@ -55,9 +55,27 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="FifthWindow.xaml.cs">
+      <DependentUpon>FifthWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FourthWindow.xaml.cs">
+      <DependentUpon>FourthWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Personne.cs" />
     <Compile Include="SecondWindow.xaml.cs">
       <DependentUpon>SecondWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ThirdWindow.xaml.cs">
+      <DependentUpon>ThirdWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="FifthWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FourthWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -71,6 +89,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="SecondWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ThirdWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -100,6 +122,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="attention.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="file.png" />
+    <Resource Include="folder.png" />
+    <Resource Include="new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="help-icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

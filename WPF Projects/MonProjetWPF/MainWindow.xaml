@@ -5,10 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MonProjetWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Hello" Height="450" Width="800">
+
     <Grid>
-        <TextBlock Text="Hello world">
-        </TextBlock>
-       
+        <Button Width="150" Height="50"  Margin="320,29,330,355">
+            <TextBlock Text="Cliquez moi"/>
+        </Button>
+        <Border BorderThickness="2"
+                BorderBrush="Black"
+                Height="50" Margin="300,99,310,285">
+            <TextBlock Text="Je suis un text bloc dans un Border" Margin="0,0,-56,0"/>
+        </Border>
+        <Label Width="120"
+             Margin="335,157,345,250" >
+            <StackPanel Orientation="Horizontal">
+                <Image Source="/attention.png" />
+                <TextBlock Text="Faite attention"/>
+            </StackPanel>
+        </Label>
+        <TextBlock Height="20" Width="120" Text="Je suis un textbloc"/>
     </Grid>
 </Window>
