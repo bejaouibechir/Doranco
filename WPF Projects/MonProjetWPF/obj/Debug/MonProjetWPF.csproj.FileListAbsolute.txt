@@ -38,3 +38,11 @@ C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\MonProjetWPF\obj
 C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\MonProjetWPF\obj\Debug\MonProjetWPF.csproj.CopyComplete
 C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\MonProjetWPF\bin\Debug\CustomControls.dll
 C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\MonProjetWPF\bin\Debug\CustomControls.pdb
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\MonProjetWPF\obj\Debug\EleventhWindow.g.cs
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\MonProjetWPF\obj\Debug\EleventhWindow.baml
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\MonProjetWPF\obj\Debug\MyTheme.baml
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\MonProjetWPF\obj\Debug\FourteenthWindow.g.cs
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\MonProjetWPF\obj\Debug\TwelfthWindow.g.cs
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\MonProjetWPF\obj\Debug\App.baml
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\MonProjetWPF\obj\Debug\FourteenthWindow.baml
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\MonProjetWPF\obj\Debug\TwelfthWindow.baml

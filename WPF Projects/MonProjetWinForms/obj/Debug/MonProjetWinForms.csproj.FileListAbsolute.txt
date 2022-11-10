@@ -9,3 +9,14 @@ C:\Users\bechir\source\repos\MaSolution\MonProjetWinForms\obj\Debug\MonProjetWin
 C:\Users\bechir\source\repos\MaSolution\MonProjetWinForms\obj\Debug\MonProjetWinForms.csproj.CoreCompileInputs.cache
 C:\Users\bechir\source\repos\MaSolution\MonProjetWinForms\obj\Debug\MonProjetWinForms.exe
 C:\Users\bechir\source\repos\MaSolution\MonProjetWinForms\obj\Debug\MonProjetWinForms.pdb
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\MonProjetWinForms\bin\Debug\MonProjetWinForms.exe.config
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\MonProjetWinForms\bin\Debug\MonProjetWinForms.exe
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\MonProjetWinForms\bin\Debug\MonProjetWinForms.pdb
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\MonProjetWinForms\obj\Debug\MonProjetWinForms.csproj.AssemblyReference.cache
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\MonProjetWinForms\obj\Debug\MonProjetWinForms.csproj.SuggestedBindingRedirects.cache
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\MonProjetWinForms\obj\Debug\MonProjetWinForms.Form1.resources
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\MonProjetWinForms\obj\Debug\MonProjetWinForms.Properties.Resources.resources
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\MonProjetWinForms\obj\Debug\MonProjetWinForms.csproj.GenerateResource.cache
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\MonProjetWinForms\obj\Debug\MonProjetWinForms.csproj.CoreCompileInputs.cache
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\MonProjetWinForms\obj\Debug\MonProjetWinForms.exe
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\MonProjetWinForms\obj\Debug\MonProjetWinForms.pdb

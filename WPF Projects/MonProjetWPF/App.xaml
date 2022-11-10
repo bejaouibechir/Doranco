@@ -2,8 +2,10 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:MonProjetWPF"
-             StartupUri="TenthWindow.xaml">
+             StartupUri="EleventhWindow.xaml">
     <Application.Resources>
-         
+        <!--<ResourceDictionary 
+            Source="C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\MonProjetWPF\MyTheme.xaml"/>-->
+        <ResourceDictionary Source="MyTheme.xaml"/>
     </Application.Resources>
 </Application>

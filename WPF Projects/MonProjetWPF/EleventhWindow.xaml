@@ -1,0 +1,96 @@
+﻿<Window x:Class="MonProjetWPF.EleventhWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MonProjetWPF"
+        xmlns:model="clr-namespace:MonProjetWPF.Model"
+        mc:Ignorable="d"
+        Title="EleventhWindow" Height="450" Width="800">
+    <Window.Resources>
+        <SolidColorBrush Color="Bisque" x:Key="color1"/>
+        <SolidColorBrush Color="LightGreen" x:Key="color2"/>
+        <model:Personnes x:Key="personnes"/>
+        <model:Employees x:Key="employees"/>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+
+
+        <ListBox Margin="10" Name="employeeList"
+                 ItemsSource="{DynamicResource employees}"  />
+        <Button Grid.Row="1" Click="Button_Click"
+                Foreground="{StaticResource color3}"
+                Background="{StaticResource sunriseBrush}"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                Content="Ajouter un element"/>
+        <ListView Grid.Row="2">
+
+            <ListView.View>
+
+                <GridView AllowsColumnReorder="true" ColumnHeaderToolTip="Employee Information">
+
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Id}" Header="Identifiant" Width="100"/>
+
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Name}" Width="100">
+                        <GridViewColumnHeader>Name
+                            <GridViewColumnHeader.ContextMenu>
+                                <ContextMenu  Name="LastNameCM">
+                                    <MenuItem Header="Ascending" />
+                                    <MenuItem Header="Descending" />
+                                </ContextMenu>
+                            </GridViewColumnHeader.ContextMenu>
+                        </GridViewColumnHeader>
+                    </GridViewColumn>
+
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Age}" Header="Age" Width="100"/>
+                </GridView>
+
+            </ListView.View>
+        </ListView>
+
+
+    </Grid>
+    
+
+    <!--<StackPanel Width="250" Height="100"
+        Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBox Background="{DynamicResource color2}"
+            
+            Text="{Binding ElementName=slider,Path=Value,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+            Margin="10" />
+        <Slider Name="slider" Minimum="0" Maximum="100" Value="30" Margin="0,1,0,0"/>
+    </StackPanel>-->
+    
+  
+    
+  <!--#region biding de deux propriétés texte-->  
+    
+    <!--<Grid>
+        --><!--<Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Source:" Margin="20,169,20,245"/>
+        --><!--Controle de source--><!--
+        <TextBox Name="origin" Grid.Column="0"
+                 Width="150"
+                 VerticalAlignment="Center" HorizontalAlignment="Center" 
+                 Text="Hello world"/>
+        <TextBlock Text="Destination:" Margin="20,169,20,245" Grid.Column="1"/>
+        --><!--Controle de destination--><!-- 
+        <TextBox Grid.Column="11" 
+                 Width="150"
+                 Text="{Binding ElementName=origin,Path=Text,Mode=OneTime}"
+                 VerticalAlignment="Center" HorizontalAlignment="Center"
+                 />--><!--
+    </Grid>-->
+    <!--#endregion-->
+         
+</Window>

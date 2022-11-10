@@ -1,0 +1,23 @@
+﻿<Window x:Class="MonProjetWPF.TwelfthWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MonProjetWPF"
+        mc:Ignorable="d"
+        Title="TwelfthWindow" Height="450" Width="800">
+    <StackPanel Orientation="Horizontal">
+        <Grid>
+            
+            <Rectangle Fill="{StaticResource  sunriseBrush}"  
+                       Height="{Binding Width, RelativeSource={RelativeSource Self}}" 
+                       Width="250"/>
+        </Grid>
+        <Grid>
+            <TextBlock Foreground="{StaticResource color2}"  
+                       Text="Hello wrold" Width="120" 
+                       Height="20" Margin="20"
+                       Background="{StaticResource sunriseBrush}" />
+        </Grid>
+    </StackPanel>
+</Window>

@@ -59,12 +59,22 @@
     <Compile Include="EigthWindow.xaml.cs">
       <DependentUpon>EigthWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="EleventhWindow.xaml.cs">
+      <DependentUpon>EleventhWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="FifthWindow.xaml.cs">
       <DependentUpon>FifthWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FourteenthWindow.xaml.cs">
+      <DependentUpon>FourteenthWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="FourthWindow.xaml.cs">
       <DependentUpon>FourthWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\Employee.cs" />
+    <Compile Include="Model\Employees.cs" />
+    <Compile Include="Model\Personne.cs" />
+    <Compile Include="Model\Personnes.cs" />
     <Compile Include="NinthWindow.xaml.cs">
       <DependentUpon>NinthWindow.xaml</DependentUpon>
     </Compile>
@@ -84,11 +94,22 @@
     <Compile Include="ThirdWindow.xaml.cs">
       <DependentUpon>ThirdWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TwelfthWindow.xaml.cs">
+      <DependentUpon>TwelfthWindow.xaml</DependentUpon>
+    </Compile>
     <Page Include="EigthWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="EleventhWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="FifthWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FourteenthWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -108,6 +129,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="MyTheme.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="NinthWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -129,6 +154,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ThirdWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TwelfthWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
