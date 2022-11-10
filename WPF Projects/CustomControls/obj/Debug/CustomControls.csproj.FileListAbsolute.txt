@@ -1,0 +1,13 @@
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\CustomControls\bin\Debug\CustomControls.dll
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\CustomControls\bin\Debug\CustomControls.pdb
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\CustomControls\obj\Debug\CustomControls.csproj.AssemblyReference.cache
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\CustomControls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\CustomControls\obj\Debug\CustomControls_MarkupCompile.cache
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\CustomControls\obj\Debug\CustomControls_MarkupCompile.lref
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\CustomControls\obj\Debug\Themes\Generic.baml
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\CustomControls\obj\Debug\CustomControls.g.resources
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\CustomControls\obj\Debug\CustomControls.Properties.Resources.resources
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\CustomControls\obj\Debug\CustomControls.csproj.GenerateResource.cache
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\CustomControls\obj\Debug\CustomControls.csproj.CoreCompileInputs.cache
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\CustomControls\obj\Debug\CustomControls.dll
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\CustomControls\obj\Debug\CustomControls.pdb

@@ -2,7 +2,6 @@
 //#define windows_env
 
 using System;
-using Mathematique;
 using System.Diagnostics;
 using System.Text;
 using System.Xml.Serialization;

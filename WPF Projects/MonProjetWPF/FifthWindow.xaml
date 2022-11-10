@@ -5,32 +5,271 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MonProjetWPF"
         mc:Ignorable="d"
-        Title="FifthWindow" Height="450" Width="800">
-    <Grid>
-        <!--<StackPanel
-         HorizontalAlignment="Center" VerticalAlignment="Center"
-         Orientation="Horizontal">
-            <TextBlock Text="Element1" Height="20"/>
-            <TextBlock Text="Element2" Height="20"/>
-            <TextBlock Text="Element3" Height="20"/>
-            <TextBlock Text="Element5"/>
-            <TextBlock Text="Element1"/>
-            <TextBlock Text="Element2"/>
-            <TextBlock Text="Element3"/>
-            <TextBlock Text="Element5"/>
+        Title="FifthWindow" Height="490" Width="630">
+    <!--<Grid>
+        --><!--<StackPanel Orientation="Horizontal"
+         HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Image Source="/help-icon.png" Width="100" Height="100" />
+            <Image Source="/help-icon.png" Width="100" Height="100" />
+            <Image Source="/help-icon.png" Width="100" Height="100" />
+            <Image Source="/help-icon.png" Width="100" Height="100" />
+            <Image Source="/help-icon.png" Width="100" Height="100" />
+            <Image Source="/help-icon.png" Width="100" Height="100" />
+            <Image Source="/help-icon.png" Width="100" Height="100" />
         </StackPanel>-->
 
-        <WrapPanel>
-            <TextBlock Text="Element1" Height="20" Width="120"/>
-            <TextBlock Text="Element2" Height="20" Width="120"/>
-            <TextBlock Text="Element3" Height="20" Width="1120"/>
-            <TextBlock Text="Element1" Height="20" Width="120"/>
-            <TextBlock Text="Element2" Height="20" Width="120"/>
-            <TextBlock Text="Element3" Height="20" Width="120"/>
-           
-           
-            
-        </WrapPanel>
-    </Grid>
+        <!--<WrapPanel Orientation="Horizontal">
+            <Image Source="/help-icon.png" Width="100" Height="100" />
+            <Image Source="/help-icon.png" Width="100" Height="100" />
+            <Image Source="/help-icon.png" Width="100" Height="100" />
+            <Image Source="/help-icon.png" Width="100" Height="100" />
+            <Image Source="/help-icon.png" Width="100" Height="100" />
+            <Image Source="/help-icon.png" Width="100" Height="100" />
+            <Image Source="/help-icon.png" Width="100" Height="100" />
+
+        </WrapPanel>--><!--
+    </Grid>-->
+
     
+    <!--<DockPanel>
+        <Button DockPanel.Dock="Left" 
+                Content="Gauche" FontSize="50" Background="Red"/>
+        <Button DockPanel.Dock="Top" 
+                Content="Top" FontSize="50" Background="Red"/>
+        <Button DockPanel.Dock="Left" 
+                Content="Gauche" FontSize="50" Background="Red"/>
+        <Button DockPanel.Dock="Right" 
+                Content="Droite" FontSize="50"
+                
+                Background="Yellow"/>
+        <Button DockPanel.Dock="Bottom"   
+                Content="En bas" FontSize="50"
+                Background="Green"/>
+        <Button DockPanel.Dock="Top" 
+                Content="Au top" FontSize="50" Background="Blue"/>
+
+
+    </DockPanel>-->
+
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Game"/>
+            <MenuItem Header="Engine"/>
+            <MenuItem Header="Apparence"/>
+            <MenuItem Header="Options"/>
+            <MenuItem Header="Naviguation"/>
+        </Menu>
+        <Grid DockPanel.Dock="Left"  Width="450" Height="450">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+
+    <!--#region Linge 1-->    
+        <Border Background="Wheat"/>
+        <Border Grid.Column="1" Background="Brown"/>
+        <Border Grid.Column="2" Background="Wheat"/>
+        <Border Grid.Column="3" Background="Brown"/>
+        <Border Grid.Column="4" Background="Wheat"/>
+        <Border Grid.Column="5" Background="Brown"/>
+        <Border Grid.Column="6" Background="Wheat"/>
+        <Border Grid.Column="7" Background="Brown"/>
+    <!--#endregion-->
+
+    <!--#region Linge 2-->
+        <Border Grid.Row="1" Background="Brown"/>
+        <Border Grid.Row="1" Grid.Column="1" Background="Wheat"/>
+        <Border Grid.Row="1" Grid.Column="2" Background="Brown"/>
+        <Border Grid.Row="1" Grid.Column="3" Background="Wheat"/>
+        <Border Grid.Row="1" Grid.Column="4" Background="Brown"/>
+        <Border Grid.Row="1" Grid.Column="5" Background="Wheat"/>
+        <Border Grid.Row="1" Grid.Column="6" Background="Brown"/>
+        <Border Grid.Row="1" Grid.Column="7" Background="Wheat"/>
+    <!--#endregion-->
+
+    <!--#region Linge 3-->
+        <Border Grid.Row="2" Background="Wheat"/>
+        <Border Grid.Row="2" Grid.Column="1" Background="Brown"/>
+        <Border Grid.Row="2" Grid.Column="2" Background="Wheat"/>
+        <Border Grid.Row="2" Grid.Column="3" Background="Brown"/>
+        <Border Grid.Row="2" Grid.Column="4" Background="Wheat"/>
+        <Border Grid.Row="2" Grid.Column="5" Background="Brown"/>
+        <Border Grid.Row="2" Grid.Column="6" Background="Wheat"/>
+        <Border Grid.Row="2" Grid.Column="7" Background="Brown"/>
+    <!--#endregion-->
+
+    <!--#region Linge 4-->
+        <Border Grid.Row="3" Background="Brown"/>
+        <Border Grid.Row="3" Grid.Column="1" Background="Wheat"/>
+        <Border Grid.Row="3" Grid.Column="2" Background="Brown"/>
+        <Border Grid.Row="3" Grid.Column="3" Background="Wheat"/>
+        <Border Grid.Row="3" Grid.Column="4" Background="Brown"/>
+        <Border Grid.Row="3" Grid.Column="5" Background="Wheat"/>
+        <Border Grid.Row="3" Grid.Column="6" Background="Brown"/>
+        <Border Grid.Row="3" Grid.Column="7" Background="Wheat"/>
+     <!--#endregion-->
+
+        <!--#region Linge 5-->
+        <Border Grid.Row="4" Background="Wheat"/>
+        <Border Grid.Row="4" Grid.Column="1" Background="Brown"/>
+        <Border Grid.Row="4" Grid.Column="2" Background="Wheat"/>
+        <Border Grid.Row="4" Grid.Column="3" Background="Brown"/>
+        <Border Grid.Row="4" Grid.Column="4" Background="Wheat"/>
+        <Border Grid.Row="4" Grid.Column="5" Background="Brown"/>
+        <Border Grid.Row="4" Grid.Column="6" Background="Wheat"/>
+        <Border Grid.Row="4" Grid.Column="7" Background="Brown"/>
+        <!--#endregion-->
+
+        <!--#region Linge 6-->
+        <Border Grid.Row="5" Background="Brown"/>
+        <Border Grid.Row="5" Grid.Column="1" Background="Wheat"/>
+        <Border Grid.Row="5" Grid.Column="2" Background="Brown"/>
+        <Border Grid.Row="5" Grid.Column="3" Background="Wheat"/>
+        <Border Grid.Row="5" Grid.Column="4" Background="Brown"/>
+        <Border Grid.Row="5" Grid.Column="5" Background="Wheat"/>
+        <Border Grid.Row="5" Grid.Column="6" Background="Brown"/>
+        <Border Grid.Row="5" Grid.Column="7" Background="Wheat"/>
+        <!--#endregion-->
+        <!--#region Linge 7-->
+        <Border Grid.Row="6" Background="Wheat"/>
+        <Border Grid.Row="6" Grid.Column="1" Background="Brown"/>
+        <Border Grid.Row="6" Grid.Column="2" Background="Wheat"/>
+        <Border Grid.Row="6" Grid.Column="3" Background="Brown"/>
+        <Border Grid.Row="6" Grid.Column="4" Background="Wheat"/>
+        <Border Grid.Row="6" Grid.Column="5" Background="Brown"/>
+        <Border Grid.Row="6" Grid.Column="6" Background="Wheat"/>
+        <Border Grid.Row="6" Grid.Column="7" Background="Brown"/>
+        <!--#endregion-->
+
+        <!--#region Linge 8-->
+        <Border Grid.Row="7" Background="Brown"/>
+        <Border Grid.Row="7" Grid.Column="1" Background="Wheat"/>
+        <Border Grid.Row="7" Grid.Column="2" Background="Brown"/>
+        <Border Grid.Row="7" Grid.Column="3" Background="Wheat"/>
+        <Border Grid.Row="7" Grid.Column="4" Background="Brown"/>
+        <Border Grid.Row="7" Grid.Column="5" Background="Wheat"/>
+        <Border Grid.Row="7" Grid.Column="6" Background="Brown"/>
+        <Border Grid.Row="7" Grid.Column="7" Background="Wheat"/>
+        <!--#endregion-->
+
+    </Grid>
+        <Border    
+            Background="LightGray"
+            DockPanel.Dock="Right">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+
+                </Grid.RowDefinitions>
+
+                <TextBlock 
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Text="Evaluation:"/>
+                <TextBlock
+                    Grid.Row="1"
+                     HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    FontSize="25"
+                    Text="+0.31" Foreground="#FFC19E24"/>
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="1*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="1*" />
+                    </Grid.RowDefinitions>
+                    <TextBlock 
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center"
+                        Text="Depth"/>
+                    <TextBlock Grid.Column="1"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center"
+                        Text="Nodes"/>
+                    <TextBlock 
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center"                   
+                        Grid.Row="1"
+                               Text="26"
+                               />
+                    <TextBlock 
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center"                   
+                        Grid.Row="2"
+                               Text="Time"
+                               />
+                    <TextBlock 
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center"                   
+                        Grid.Row="3"
+                               Text="1:12"
+                               />
+                    <TextBlock 
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center"                   
+                        Grid.Column="1"
+                        Grid.Row="1"
+                               Text="389 M"
+                               />
+                    <TextBlock 
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center"                   
+                        Grid.Column="1"
+                        Grid.Row="2"
+                               Text="NPS"
+                               />
+                    <TextBlock 
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center"                   
+                        Grid.Column="1"
+                        Grid.Row="3"
+                               Text="5'410 k"
+                               />
+                </Grid>
+                <Border BorderBrush="Black"
+                        Grid.RowSpan="3"
+                        BorderThickness="1"
+                        Grid.Row="3" 
+                        Margin="10"
+                        Background="White"/>
+                <Border BorderBrush="Black" 
+                        BorderThickness="1"
+                        Grid.RowSpan="3"
+                        Margin="10"
+                    Grid.Row="6" Background="White"/>
+            </Grid>
+        </Border>
+    </DockPanel>
+    
+    
+     
 </Window>

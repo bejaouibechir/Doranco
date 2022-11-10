@@ -55,19 +55,39 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Couleurs.cs" />
+    <Compile Include="EigthWindow.xaml.cs">
+      <DependentUpon>EigthWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="FifthWindow.xaml.cs">
       <DependentUpon>FifthWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="FourthWindow.xaml.cs">
       <DependentUpon>FourthWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="NinthWindow.xaml.cs">
+      <DependentUpon>NinthWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Personne.cs" />
     <Compile Include="SecondWindow.xaml.cs">
       <DependentUpon>SecondWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SeventhWindow.xaml.cs">
+      <DependentUpon>SeventhWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SixthWindow.xaml.cs">
+      <DependentUpon>SixthWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TenthWindow.xaml.cs">
+      <DependentUpon>TenthWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ThirdWindow.xaml.cs">
       <DependentUpon>ThirdWindow.xaml</DependentUpon>
     </Compile>
+    <Page Include="EigthWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="FifthWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -88,7 +108,23 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="NinthWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="SecondWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SeventhWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SixthWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TenthWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -133,6 +169,19 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="help-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="poubelle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CustomControls\CustomControls.csproj">
+      <Project>{3c9d68b4-faea-4637-9e44-4996e58ce38f}</Project>
+      <Name>CustomControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UserControls\UserControls.csproj">
+      <Project>{d1a59e5a-56a3-4300-b354-e3be5337ffa6}</Project>
+      <Name>UserControls</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

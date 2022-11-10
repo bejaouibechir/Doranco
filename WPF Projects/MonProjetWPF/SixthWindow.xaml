@@ -1,0 +1,43 @@
+﻿<Window x:Class="MonProjetWPF.SixthWindow"
+        Background="Black"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MonProjetWPF"
+        mc:Ignorable="d"
+        Title="SixthWindow" Height="450" Width="800">
+    <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBlock Text="09/11/2022" Foreground="LightGray"/>
+        <Label>
+            <StackPanel Orientation="Horizontal">
+                <Ellipse Width="10" Height="10" Fill="Green"/>
+                <TextBlock Margin="5" Text="sharemycode.fr/xw2" 
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           Foreground="LightGray"/>
+                <Image Source="/poubelle.png" />
+            </StackPanel>
+        </Label>
+        <Label>
+            <StackPanel Orientation="Horizontal">
+                <Ellipse Width="10" Height="10" Fill="Green"/>
+                <TextBlock Margin="5" Text="sharemycode.fr/3qj" 
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           Foreground="LightGray"/>
+                <Image Source="/poubelle.png" />
+            </StackPanel>
+        </Label>
+        <Label>
+            <StackPanel Orientation="Horizontal">
+                <Ellipse Width="10" Height="10" Fill="Green"/>
+                <TextBlock Margin="5" Text="sharemycode.fr/jv5" 
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           Foreground="LightGray"/>
+                <Image Source="/poubelle.png" />
+            </StackPanel>
+        </Label>
+    </StackPanel>
+</Window>

@@ -1,0 +1,13 @@
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\UserControls\bin\Debug\UserControls.dll
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\UserControls\bin\Debug\UserControls.pdb
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\UserControls\obj\Debug\UserControls.csproj.AssemblyReference.cache
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\UserControls\obj\Debug\NumericUpdDown.g.cs
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\UserControls\obj\Debug\UserControls_MarkupCompile.cache
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\UserControls\obj\Debug\UserControls_MarkupCompile.lref
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\UserControls\obj\Debug\NumericUpdDown.baml
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\UserControls\obj\Debug\UserControls.g.resources
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\UserControls\obj\Debug\UserControls.Properties.Resources.resources
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\UserControls\obj\Debug\UserControls.csproj.GenerateResource.cache
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\UserControls\obj\Debug\UserControls.csproj.CoreCompileInputs.cache
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\UserControls\obj\Debug\UserControls.dll
+C:\Users\bechir\source\repos\Doranco\DorancoGithub\WPF Projects\UserControls\obj\Debug\UserControls.pdb

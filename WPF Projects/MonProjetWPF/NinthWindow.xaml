@@ -1,0 +1,38 @@
+﻿<Window x:Class="MonProjetWPF.NinthWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MonProjetWPF"
+        mc:Ignorable="d"
+        Title="NinthWindow" Height="450" Width="800">
+    <Canvas>
+        <Rectangle Width="250" Height="250" 
+                   Stroke="Black"
+                   StrokeThickness="3"
+                   RadiusX="62.54"
+                   Fill="Azure" RadiusY="62.54"/>
+
+        <Ellipse Width="250" Height="250" 
+                 Canvas.Left="500"
+                 Stroke="Black"
+                 StrokeThickness="3"
+                 Fill="Yellow" />
+        <Line X1="0" Y1="0" X2="500" Y2="180"
+              Stroke="Red"
+              StrokeThickness="5"
+              Canvas.Top="250"
+              />
+        <Path Canvas.Left="200"
+            Stroke="Blue" StrokeThickness="5"
+            Data="M 80,200 A 100,50 45 1 0 100,50"  />
+        <Path Width="33" Height="37" Stretch="Fill" Stroke="Black" Fill="Black" Data="F1 M 319.344,237.333L 287.328,218.849L 287.328,255.818L 319.344,237.333 Z "/>
+        <Path Margin="50" Width="33" Height="37" Stretch="Fill" Stroke="Black" Fill="Black" Data="F1 M 287.328,237.333L 319.344,255.818L 319.344,218.849L 287.328,237.333 Z "/>
+        <Path Name="courbe"
+            Data="M546.762,57.463C543.612,58.796 538.672,60.326 536.607,57.014 535.463,55.18 536.191,52.322 537.878,49.727 538.965,48.058 540.344,46.533 541.74,45 540.962,46.255 538.799,50.426 541.644,52.504 542.737,53.307 544.688,53.391 547.117,52.761L576,45.124 546.762,57.463z" Fill="#FF000000" />
+        <Polygon Fill="Red"
+                 Canvas.Left="450"
+                 Canvas.Top="300"
+            Points="0,0 -200,20 10,20"/>
+    </Canvas>
+</Window>
