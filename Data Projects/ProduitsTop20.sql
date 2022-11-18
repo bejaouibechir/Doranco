@@ -1,0 +1,1 @@
+﻿SELECT TOP(20) [ProductID],[Name],[Color],[ListPrice],[Weight] FROM [SalesLT].[Product]

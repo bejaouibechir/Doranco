@@ -35,7 +35,9 @@ namespace WpfApp
             connection = new SqlConnection(chaineconnection);
             SqlCommand command = new SqlCommand("SELECT TOP(20) [ProductID],[Name],[Color]," +
                 "[ListPrice],[Weight] FROM [SalesLT].[Product]", connection);
-            connection.Open();
+
+            //  ???       
+
             SqlDataReader reader = command.ExecuteReader();
             List<Produit> listeproduit = new List<Produit>();
             

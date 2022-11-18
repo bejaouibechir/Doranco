@@ -1,0 +1,16 @@
+D:\DorancoProjects\Doranco\Data Projects\WpfAppDeconnecté\bin\Debug\WpfAppDeconnecté.exe.config
+D:\DorancoProjects\Doranco\Data Projects\WpfAppDeconnecté\bin\Debug\WpfAppDeconnecté.exe
+D:\DorancoProjects\Doranco\Data Projects\WpfAppDeconnecté\bin\Debug\WpfAppDeconnecté.pdb
+D:\DorancoProjects\Doranco\Data Projects\WpfAppDeconnecté\obj\Debug\WpfAppDeconnecté.csproj.AssemblyReference.cache
+D:\DorancoProjects\Doranco\Data Projects\WpfAppDeconnecté\obj\Debug\WpfAppDeconnecté.csproj.SuggestedBindingRedirects.cache
+D:\DorancoProjects\Doranco\Data Projects\WpfAppDeconnecté\obj\Debug\MainWindow.g.cs
+D:\DorancoProjects\Doranco\Data Projects\WpfAppDeconnecté\obj\Debug\App.g.cs
+D:\DorancoProjects\Doranco\Data Projects\WpfAppDeconnecté\obj\Debug\WpfAppDeconnecté_MarkupCompile.cache
+D:\DorancoProjects\Doranco\Data Projects\WpfAppDeconnecté\obj\Debug\WpfAppDeconnecté_MarkupCompile.lref
+D:\DorancoProjects\Doranco\Data Projects\WpfAppDeconnecté\obj\Debug\MainWindow.baml
+D:\DorancoProjects\Doranco\Data Projects\WpfAppDeconnecté\obj\Debug\WpfAppDeconnecté.g.resources
+D:\DorancoProjects\Doranco\Data Projects\WpfAppDeconnecté\obj\Debug\WpfAppDeconnecté.Properties.Resources.resources
+D:\DorancoProjects\Doranco\Data Projects\WpfAppDeconnecté\obj\Debug\WpfAppDeconnecté.csproj.GenerateResource.cache
+D:\DorancoProjects\Doranco\Data Projects\WpfAppDeconnecté\obj\Debug\WpfAppDeconnecté.csproj.CoreCompileInputs.cache
+D:\DorancoProjects\Doranco\Data Projects\WpfAppDeconnecté\obj\Debug\WpfAppDeconnecté.exe
+D:\DorancoProjects\Doranco\Data Projects\WpfAppDeconnecté\obj\Debug\WpfAppDeconnecté.pdb

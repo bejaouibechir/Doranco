@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -9,7 +10,8 @@ namespace ConsoleApp
 {
     internal class Program
     {
-
+        
+        //Mode connecté 
         static void Main(string[] args)
         {
             string chaineconnection = "Data Source=PC2022;Initial Catalog=AdventureWorksLT2014;Integrated Security=True";

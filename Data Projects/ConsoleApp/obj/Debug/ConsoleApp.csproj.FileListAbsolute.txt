@@ -6,3 +6,11 @@ C:\Users\bechir\source\repos\DataAccessSolution\ConsoleApp\obj\Debug\ConsoleApp.
 C:\Users\bechir\source\repos\DataAccessSolution\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
 C:\Users\bechir\source\repos\DataAccessSolution\ConsoleApp\obj\Debug\ConsoleApp.exe
 C:\Users\bechir\source\repos\DataAccessSolution\ConsoleApp\obj\Debug\ConsoleApp.pdb
+D:\DorancoProjects\Doranco\Data Projects\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+D:\DorancoProjects\Doranco\Data Projects\ConsoleApp\bin\Debug\ConsoleApp.exe
+D:\DorancoProjects\Doranco\Data Projects\ConsoleApp\bin\Debug\ConsoleApp.pdb
+D:\DorancoProjects\Doranco\Data Projects\ConsoleApp\obj\Debug\ConsoleApp.csproj.AssemblyReference.cache
+D:\DorancoProjects\Doranco\Data Projects\ConsoleApp\obj\Debug\ConsoleApp.csproj.SuggestedBindingRedirects.cache
+D:\DorancoProjects\Doranco\Data Projects\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
+D:\DorancoProjects\Doranco\Data Projects\ConsoleApp\obj\Debug\ConsoleApp.exe
+D:\DorancoProjects\Doranco\Data Projects\ConsoleApp\obj\Debug\ConsoleApp.pdb
