@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfClientAsmx.DeleteProductWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfClientAsmx"
+        mc:Ignorable="d"
+        Title="Delete Product Window" Height="150" Width="450">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Product Id:" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBox Name="txtId" Grid.Row="1" Grid.Column="1" Margin="5" Background="Yellow"/>
+        <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1">
+            <Button x:Name="btnCancel" Content="Cancel" Click="btnCancel_Click"   MinWidth="100" Margin="20"/>
+            <Button x:Name="btnSearch" Content="Search" Click="btnSearch_Click"   MinWidth="100" Margin="20" />
+        </StackPanel>
+    </Grid>
+</Window>
