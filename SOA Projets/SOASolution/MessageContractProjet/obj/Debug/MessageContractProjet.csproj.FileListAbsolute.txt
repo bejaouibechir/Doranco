@@ -1,0 +1,7 @@
+C:\Users\bechir\source\repos\SOASolution\MessageContractProjet\bin\Debug\MessageContractProjet.dll.config
+C:\Users\bechir\source\repos\SOASolution\MessageContractProjet\bin\Debug\MessageContractProjet.dll
+C:\Users\bechir\source\repos\SOASolution\MessageContractProjet\bin\Debug\MessageContractProjet.pdb
+C:\Users\bechir\source\repos\SOASolution\MessageContractProjet\obj\Debug\MessageContractProjet.csproj.AssemblyReference.cache
+C:\Users\bechir\source\repos\SOASolution\MessageContractProjet\obj\Debug\MessageContractProjet.csproj.CoreCompileInputs.cache
+C:\Users\bechir\source\repos\SOASolution\MessageContractProjet\obj\Debug\MessageContractProjet.dll
+C:\Users\bechir\source\repos\SOASolution\MessageContractProjet\obj\Debug\MessageContractProjet.pdb
