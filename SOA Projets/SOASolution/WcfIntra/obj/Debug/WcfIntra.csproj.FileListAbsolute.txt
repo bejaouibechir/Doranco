@@ -1,0 +1,7 @@
+C:\Users\bechir\source\repos\SOASolution\WcfIntra\bin\Debug\WcfIntra.dll.config
+C:\Users\bechir\source\repos\SOASolution\WcfIntra\bin\Debug\WcfIntra.dll
+C:\Users\bechir\source\repos\SOASolution\WcfIntra\bin\Debug\WcfIntra.pdb
+C:\Users\bechir\source\repos\SOASolution\WcfIntra\obj\Debug\WcfIntra.csproj.AssemblyReference.cache
+C:\Users\bechir\source\repos\SOASolution\WcfIntra\obj\Debug\WcfIntra.csproj.CoreCompileInputs.cache
+C:\Users\bechir\source\repos\SOASolution\WcfIntra\obj\Debug\WcfIntra.dll
+C:\Users\bechir\source\repos\SOASolution\WcfIntra\obj\Debug\WcfIntra.pdb

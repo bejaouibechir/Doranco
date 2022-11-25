@@ -1,0 +1,7 @@
+C:\Users\bechir\source\repos\SOASolution\WcfWeb\bin\WcfWeb.dll.config
+C:\Users\bechir\source\repos\SOASolution\WcfWeb\bin\WcfWeb.dll
+C:\Users\bechir\source\repos\SOASolution\WcfWeb\bin\WcfWeb.pdb
+C:\Users\bechir\source\repos\SOASolution\WcfWeb\obj\Release\WcfWeb.csproj.AssemblyReference.cache
+C:\Users\bechir\source\repos\SOASolution\WcfWeb\obj\Release\WcfWeb.csproj.CoreCompileInputs.cache
+C:\Users\bechir\source\repos\SOASolution\WcfWeb\obj\Release\WcfWeb.dll
+C:\Users\bechir\source\repos\SOASolution\WcfWeb\obj\Release\WcfWeb.pdb

@@ -1,0 +1,11 @@
+C:\Users\bechir\source\repos\SOASolution\ProducServiceWCF\bin\Release\ProducServiceWCF.dll
+C:\Users\bechir\source\repos\SOASolution\ProducServiceWCF\bin\Release\ProducServiceWCF.pdb
+C:\Users\bechir\source\repos\SOASolution\ProducServiceWCF\bin\Release\EntityFramework.dll
+C:\Users\bechir\source\repos\SOASolution\ProducServiceWCF\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\bechir\source\repos\SOASolution\ProducServiceWCF\bin\Release\EntityFramework.xml
+C:\Users\bechir\source\repos\SOASolution\ProducServiceWCF\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\bechir\source\repos\SOASolution\ProducServiceWCF\obj\Release\ProducServiceWCF.csproj.AssemblyReference.cache
+C:\Users\bechir\source\repos\SOASolution\ProducServiceWCF\obj\Release\ProducServiceWCF.csproj.CoreCompileInputs.cache
+C:\Users\bechir\source\repos\SOASolution\ProducServiceWCF\obj\Release\ProducServiceWCF.csproj.CopyComplete
+C:\Users\bechir\source\repos\SOASolution\ProducServiceWCF\obj\Release\ProducServiceWCF.dll
+C:\Users\bechir\source\repos\SOASolution\ProducServiceWCF\obj\Release\ProducServiceWCF.pdb

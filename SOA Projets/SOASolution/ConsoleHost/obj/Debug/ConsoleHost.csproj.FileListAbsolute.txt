@@ -1,0 +1,13 @@
+C:\Users\bechir\source\repos\SOASolution\ConsoleHost\obj\Debug\ConsoleHost.csproj.AssemblyReference.cache
+C:\Users\bechir\source\repos\SOASolution\ConsoleHost\obj\Debug\ConsoleHost.csproj.SuggestedBindingRedirects.cache
+C:\Users\bechir\source\repos\SOASolution\ConsoleHost\obj\Debug\ConsoleHost.csproj.CoreCompileInputs.cache
+C:\Users\bechir\source\repos\SOASolution\ConsoleHost\bin\Debug\ConsoleHost.exe.config
+C:\Users\bechir\source\repos\SOASolution\ConsoleHost\bin\Debug\ConsoleHost.exe
+C:\Users\bechir\source\repos\SOASolution\ConsoleHost\bin\Debug\ConsoleHost.pdb
+C:\Users\bechir\source\repos\SOASolution\ConsoleHost\bin\Debug\ProducServiceWCF.dll
+C:\Users\bechir\source\repos\SOASolution\ConsoleHost\bin\Debug\EntityFramework.dll
+C:\Users\bechir\source\repos\SOASolution\ConsoleHost\bin\Debug\ProducServiceWCF.pdb
+C:\Users\bechir\source\repos\SOASolution\ConsoleHost\bin\Debug\EntityFramework.xml
+C:\Users\bechir\source\repos\SOASolution\ConsoleHost\obj\Debug\ConsoleHost.csproj.CopyComplete
+C:\Users\bechir\source\repos\SOASolution\ConsoleHost\obj\Debug\ConsoleHost.exe
+C:\Users\bechir\source\repos\SOASolution\ConsoleHost\obj\Debug\ConsoleHost.pdb

@@ -1,4 +1,3 @@
-C:\Users\bechir\source\repos\SOASolution\ProducServiceWCF\bin\Debug\ProducServiceWCF.dll.config
 C:\Users\bechir\source\repos\SOASolution\ProducServiceWCF\bin\Debug\ProducServiceWCF.dll
 C:\Users\bechir\source\repos\SOASolution\ProducServiceWCF\bin\Debug\ProducServiceWCF.pdb
 C:\Users\bechir\source\repos\SOASolution\ProducServiceWCF\bin\Debug\EntityFramework.dll

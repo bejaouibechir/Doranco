@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\FootService</_PublishTargetUrl>
+    <History>True|2022-11-25T11:35:19.3637446Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/WcfWeb.dll">
+      <publishTime>11/25/2022 12:35:17</publishTime>
+    </File>
+    <File Include="bin/WcfWeb.pdb">
+      <publishTime>11/25/2022 12:35:17</publishTime>
+    </File>
+    <File Include="Service1.svc">
+      <publishTime>11/24/2022 11:08:19</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/25/2022 12:35:19</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

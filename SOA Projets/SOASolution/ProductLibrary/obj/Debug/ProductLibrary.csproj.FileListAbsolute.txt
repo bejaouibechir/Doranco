@@ -1,0 +1,6 @@
+C:\Users\bechir\source\repos\SOASolution\ProductLibrary\bin\Debug\ProductLibrary.dll
+C:\Users\bechir\source\repos\SOASolution\ProductLibrary\bin\Debug\ProductLibrary.pdb
+C:\Users\bechir\source\repos\SOASolution\ProductLibrary\obj\Debug\ProductLibrary.csproj.AssemblyReference.cache
+C:\Users\bechir\source\repos\SOASolution\ProductLibrary\obj\Debug\ProductLibrary.csproj.CoreCompileInputs.cache
+C:\Users\bechir\source\repos\SOASolution\ProductLibrary\obj\Debug\ProductLibrary.dll
+C:\Users\bechir\source\repos\SOASolution\ProductLibrary\obj\Debug\ProductLibrary.pdb

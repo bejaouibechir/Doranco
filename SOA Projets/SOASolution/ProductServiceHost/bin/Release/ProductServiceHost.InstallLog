@@ -1,0 +1,21 @@
+﻿Installing assembly 'C:\Users\bechir\source\repos\SOASolution\ProductServiceHost\bin\Release\ProductServiceHost.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\bechir\source\repos\SOASolution\ProductServiceHost\bin\Release\ProductServiceHost.InstallLog
+   assemblypath = C:\Users\bechir\source\repos\SOASolution\ProductServiceHost\bin\Release\ProductServiceHost.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'C:\Users\bechir\source\repos\SOASolution\ProductServiceHost\bin\Release\ProductServiceHost.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\bechir\source\repos\SOASolution\ProductServiceHost\bin\Release\ProductServiceHost.InstallLog
+   assemblypath = C:\Users\bechir\source\repos\SOASolution\ProductServiceHost\bin\Release\ProductServiceHost.exe
+Uninstalling assembly 'C:\Users\bechir\source\repos\SOASolution\ProductServiceHost\bin\Release\ProductServiceHost.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\bechir\source\repos\SOASolution\ProductServiceHost\bin\Release\ProductServiceHost.InstallLog
+   assemblypath = C:\Users\bechir\source\repos\SOASolution\ProductServiceHost\bin\Release\ProductServiceHost.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.

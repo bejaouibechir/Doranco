@@ -1,0 +1,15 @@
+C:\Users\bechir\source\repos\SOASolution\ProductServiceHost\bin\Release\ProductServiceHost.exe.config
+C:\Users\bechir\source\repos\SOASolution\ProductServiceHost\bin\Release\ProductServiceHost.exe
+C:\Users\bechir\source\repos\SOASolution\ProductServiceHost\bin\Release\ProductServiceHost.pdb
+C:\Users\bechir\source\repos\SOASolution\ProductServiceHost\bin\Release\ProducServiceWCF.dll
+C:\Users\bechir\source\repos\SOASolution\ProductServiceHost\bin\Release\EntityFramework.dll
+C:\Users\bechir\source\repos\SOASolution\ProductServiceHost\bin\Release\ProducServiceWCF.pdb
+C:\Users\bechir\source\repos\SOASolution\ProductServiceHost\bin\Release\EntityFramework.xml
+C:\Users\bechir\source\repos\SOASolution\ProductServiceHost\obj\Release\ProductServiceHost.csproj.AssemblyReference.cache
+C:\Users\bechir\source\repos\SOASolution\ProductServiceHost\obj\Release\ProductServiceHost.csproj.SuggestedBindingRedirects.cache
+C:\Users\bechir\source\repos\SOASolution\ProductServiceHost\obj\Release\ProductServiceHost.ProjectInstaller.resources
+C:\Users\bechir\source\repos\SOASolution\ProductServiceHost\obj\Release\ProductServiceHost.csproj.GenerateResource.cache
+C:\Users\bechir\source\repos\SOASolution\ProductServiceHost\obj\Release\ProductServiceHost.csproj.CoreCompileInputs.cache
+C:\Users\bechir\source\repos\SOASolution\ProductServiceHost\obj\Release\ProductServiceHost.csproj.CopyComplete
+C:\Users\bechir\source\repos\SOASolution\ProductServiceHost\obj\Release\ProductServiceHost.exe
+C:\Users\bechir\source\repos\SOASolution\ProductServiceHost\obj\Release\ProductServiceHost.pdb

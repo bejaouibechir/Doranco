@@ -60,6 +60,7 @@ namespace ProducServiceWCF
             catch (FaultException<SqlException> erreur)
             {
                 Debug.WriteLine(erreur.Data);
+                return null;
             }
         }
 
@@ -75,6 +76,7 @@ namespace ProducServiceWCF
             catch (FaultException<SqlException> erreur)
             {
                 Debug.WriteLine(erreur.Data);
+                return null;
             }
         }
 
