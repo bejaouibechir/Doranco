@@ -1,0 +1,8 @@
+C:\Users\bechir\source\repos\MVVMDistribueSolution\DesignPattens\bin\Debug\DesignPattens.exe.config
+C:\Users\bechir\source\repos\MVVMDistribueSolution\DesignPattens\bin\Debug\DesignPattens.exe
+C:\Users\bechir\source\repos\MVVMDistribueSolution\DesignPattens\bin\Debug\DesignPattens.pdb
+C:\Users\bechir\source\repos\MVVMDistribueSolution\DesignPattens\obj\Debug\DesignPattens.csproj.AssemblyReference.cache
+C:\Users\bechir\source\repos\MVVMDistribueSolution\DesignPattens\obj\Debug\DesignPattens.csproj.SuggestedBindingRedirects.cache
+C:\Users\bechir\source\repos\MVVMDistribueSolution\DesignPattens\obj\Debug\DesignPattens.csproj.CoreCompileInputs.cache
+C:\Users\bechir\source\repos\MVVMDistribueSolution\DesignPattens\obj\Debug\DesignPattens.exe
+C:\Users\bechir\source\repos\MVVMDistribueSolution\DesignPattens\obj\Debug\DesignPattens.pdb
