@@ -22,27 +22,27 @@ namespace DesignPattens.Repository.ImplPostGres
 
         public void Add(Product entity)
         {
-            _context.Products.Add(entity);
+            _context.Add(entity);
         }
 
         public void Delete(Product entity)
         {
-            _context.Products.Remove(entity);
+            _context.Remove(entity.ProductID);
         }
 
         public Product Get(int id)
         {
-            return _context.Products.SingleOrDefault(p => p.ProductID == id);
+            return _context.Get(id);
         }
 
         public List<Product> List()
         {
-            return _context.Products.ToList();
+            return _context.List();
         }
 
         public void Update(Product entity)
         {
-            _context.Products.AddOrUpdate(entity);
+            _context.Update(entity.ProductID, entity);
         }
     }
 
