@@ -1,0 +1,17 @@
+C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\bin\Debug\SimpleCalculator.exe.config
+C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\bin\Debug\SimpleCalculator.exe
+C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\bin\Debug\SimpleCalculator.pdb
+C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.AssemblyReference.cache
+C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\MainWindow.g.cs
+C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\App.g.cs
+C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\SimpleCalculator_MarkupCompile.cache
+C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\SimpleCalculator_MarkupCompile.lref
+C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\MainWindow.baml
+C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\SimpleCalculator.g.resources
+C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\SimpleCalculator.Properties.Resources.resources
+C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.GenerateResource.cache
+C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.CoreCompileInputs.cache
+C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\SimpleCalculator.exe
+C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\SimpleCalculator.pdb
+C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\GeneratedInternalTypeHelper.g.cs
