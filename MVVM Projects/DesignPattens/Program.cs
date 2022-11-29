@@ -1,7 +1,21 @@
 ﻿//#define factorymethod
+//#define abstractfactory
+//#define sqlserver
+#define postgresql
+#define repository
 using System;
+using System.Collections.Generic;
 using DesignPattens.AbstractFactory;
 using DesignPattens.FactoryMethod;
+using DesignPattens.Repository.Abstraction;
+
+#if sqlserver
+using DesignPattens.Repository.ImplSQLServer;
+#endif
+
+#if postgresql
+using DesignPattens.Repository.ImplPostGres;
+#endif
 
 namespace DesignPattens
 {
@@ -14,10 +28,13 @@ namespace DesignPattens
             dataaccesslayer.Connect(Choice.PostGres);
 #endif
 
-            //Forme  erronée
+
+#if abstractfactory
+                //Forme  erronée
             /*SqlServer alternative1 = new SqlServer();
             PostgreSQL alternative2 = new PostgreSQL();
             Cloud alternative3 = new Cloud();*/
+
 
             DALBase dalsqlserver = DALBase.CreateInstance(AbstractFactory.Choice.SqlServer);
             dalsqlserver.Connect();
@@ -25,6 +42,20 @@ namespace DesignPattens
             dalpostgresql.Connect();
             DALBase dalcloud = DALBase.CreateInstance(AbstractFactory.Choice.Cloud);
             dalcloud.Connect();
+#endif
+
+#if repository
+
+            IRepository<Product> pRepository = new ProductRepository();
+            List<Product> products = pRepository.List();
+            ;
+#endif
+            //ImplPostGres.ProductRepository
+            //ImplSqlServer.ProductRepository
+
+
+
+
         }
     }
 }
