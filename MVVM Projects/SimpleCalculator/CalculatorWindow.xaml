@@ -1,0 +1,60 @@
+﻿<Window x:Class="SimpleCalculator.CalculatorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimpleCalculator"
+        mc:Ignorable="d"
+        Title="CalculatorWindow" Height="350" Width="550">
+    <Window.Resources>
+        <local:ViewModel x:Key="vmodel"/>
+    </Window.Resources>
+    <Grid DataContext="{StaticResource vmodel}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Calculateur" 
+                   FontSize="20"
+                   Grid.ColumnSpan="2"/>
+        <ComboBox Margin="2" 
+                  Name="OperationCmb"
+                  Grid.Column="1" Grid.Row="1">
+            <ComboBoxItem  Content="Addition"/>
+            <ComboBoxItem  Content="Soustraction"/>
+            <ComboBoxItem  Content="Multiplication"/>
+            <ComboBoxItem  Content="Division"/>
+        </ComboBox>
+        <TextBlock  Text="Operande 1:" Grid.Row="2"/>
+        <TextBlock Text="Operande 2:" Grid.Row="3"/>
+        <TextBox Name="txtOperande1" 
+                 Text="{Binding CalculatorModel.Operande1}"
+                 Background="AliceBlue" Grid.Row="2" 
+                 Margin="2"
+                 Grid.Column="1">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="LostFocus">
+                    <i:InvokeCommandAction Command="{Binding ValidateCmd}"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </TextBox>
+        <TextBox Name="txtOperande2" Background="AliceBlue" Grid.Row="3"  
+                 Text="{Binding CalculatorModel.Operande2}"
+                 Margin="2"
+                 Grid.Column="1"/>
+       <!--La commande SommeCmd va être executée par défaut pour l'événement click-->
+        <Button Content="Calculer" 
+                Command="{Binding SommeCmd}"
+                CommandParameter="{Binding ElementName=OperationCmb, Path=SelectedIndex}"
+                Margin="10"
+                Grid.Column="1" Grid.Row="4"/>
+    </Grid>
+</Window>

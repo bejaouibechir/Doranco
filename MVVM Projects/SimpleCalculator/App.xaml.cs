@@ -13,5 +13,6 @@ namespace SimpleCalculator
     /// </summary>
     public partial class App : Application
     {
+       
     }
 }

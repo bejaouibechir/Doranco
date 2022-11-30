@@ -3,11 +3,9 @@ C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\bin\Debug\Si
 C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\bin\Debug\SimpleCalculator.pdb
 C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.AssemblyReference.cache
 C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.SuggestedBindingRedirects.cache
-C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\MainWindow.g.cs
 C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\App.g.cs
 C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\SimpleCalculator_MarkupCompile.cache
 C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\SimpleCalculator_MarkupCompile.lref
-C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\MainWindow.baml
 C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\SimpleCalculator.g.resources
 C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\SimpleCalculator.Properties.Resources.resources
 C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.GenerateResource.cache
@@ -15,3 +13,10 @@ C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\Si
 C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\SimpleCalculator.exe
 C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\SimpleCalculator.pdb
 C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\CalculatorWindow.g.cs
+C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\CalculatorWindow.baml
+C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\bechir\source\repos\MVVMDistribueSolution\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.CopyComplete
