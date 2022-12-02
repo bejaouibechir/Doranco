@@ -8,7 +8,7 @@ namespace MVVMCalculator.Model
 
         #region Private members
 
-        private string result;
+        string result;
 
         #endregion
 
@@ -65,7 +65,11 @@ namespace MVVMCalculator.Model
         /// <summary>
         /// C'est le resultat de l'opération de calcul
         /// </summary>
-        public string Result { get; set; }
+        public string Result
+        { 
+            get { return result; }
+            set { result = value; }
+        }
 
         #endregion
 

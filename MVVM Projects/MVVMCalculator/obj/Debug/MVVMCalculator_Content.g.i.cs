@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("helpers/galaxie2.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("calculator%20roadmap.png")]
 
 
