@@ -1,0 +1,11 @@
+C:\Users\bechir\source\repos\CoreSolution\ConsoleFramework\bin\Debug\ConsoleFramework.exe.config
+C:\Users\bechir\source\repos\CoreSolution\ConsoleFramework\bin\Debug\ConsoleFramework.exe
+C:\Users\bechir\source\repos\CoreSolution\ConsoleFramework\bin\Debug\ConsoleFramework.pdb
+C:\Users\bechir\source\repos\CoreSolution\ConsoleFramework\bin\Debug\Bibliotheque.dll
+C:\Users\bechir\source\repos\CoreSolution\ConsoleFramework\bin\Debug\Bibliotheque.pdb
+C:\Users\bechir\source\repos\CoreSolution\ConsoleFramework\obj\Debug\ConsoleFramework.csproj.AssemblyReference.cache
+C:\Users\bechir\source\repos\CoreSolution\ConsoleFramework\obj\Debug\ConsoleFramework.csproj.SuggestedBindingRedirects.cache
+C:\Users\bechir\source\repos\CoreSolution\ConsoleFramework\obj\Debug\ConsoleFramework.csproj.CoreCompileInputs.cache
+C:\Users\bechir\source\repos\CoreSolution\ConsoleFramework\obj\Debug\ConsoleFramework.csproj.CopyComplete
+C:\Users\bechir\source\repos\CoreSolution\ConsoleFramework\obj\Debug\ConsoleFramework.exe
+C:\Users\bechir\source\repos\CoreSolution\ConsoleFramework\obj\Debug\ConsoleFramework.pdb

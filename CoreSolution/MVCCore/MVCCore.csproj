@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Description>Ce ci est notre premier projet MVC Core</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.10" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+  </ItemGroup>
+
+  <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build"
+        Condition=" '$(Configuration)' == 'Debug' And !Exists('node_modules') ">
+    <!--S’assurer que node.js est installé-->
+    <Exec Command="node --version" ContinueOnError="true">
+      <Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
+    </Exec>
+    <Error Condition="'$(ErrorCode)' != '0'"
+	 Text="Node.js installer Node.js à partir de https://nodejs.org/, et relancer VS" />
+    <Message Importance="high"
+             Text="L’installation de npm peut prendre quelques minutes..." />
+    <!--<Exec WorkingDirectory="" Command="npm install" />-->
+  </Target>
+
+
+</Project>

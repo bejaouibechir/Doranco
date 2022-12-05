@@ -1,0 +1,6 @@
+C:\Users\bechir\source\repos\CoreSolution\Bibliotheque\bin\Debug\Bibliotheque.dll
+C:\Users\bechir\source\repos\CoreSolution\Bibliotheque\bin\Debug\Bibliotheque.pdb
+C:\Users\bechir\source\repos\CoreSolution\Bibliotheque\obj\Debug\Bibliotheque.csproj.AssemblyReference.cache
+C:\Users\bechir\source\repos\CoreSolution\Bibliotheque\obj\Debug\Bibliotheque.csproj.CoreCompileInputs.cache
+C:\Users\bechir\source\repos\CoreSolution\Bibliotheque\obj\Debug\Bibliotheque.dll
+C:\Users\bechir\source\repos\CoreSolution\Bibliotheque\obj\Debug\Bibliotheque.pdb

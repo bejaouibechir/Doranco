@@ -1,0 +1,12 @@
+C:\Users\bechir\source\repos\CoreSolution\BibliothequeCore\bin\Debug\net6.0\BibliothequeCore.deps.json
+C:\Users\bechir\source\repos\CoreSolution\BibliothequeCore\bin\Debug\net6.0\BibliothequeCore.dll
+C:\Users\bechir\source\repos\CoreSolution\BibliothequeCore\bin\Debug\net6.0\BibliothequeCore.pdb
+C:\Users\bechir\source\repos\CoreSolution\BibliothequeCore\obj\Debug\net6.0\BibliothequeCore.csproj.AssemblyReference.cache
+C:\Users\bechir\source\repos\CoreSolution\BibliothequeCore\obj\Debug\net6.0\BibliothequeCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bechir\source\repos\CoreSolution\BibliothequeCore\obj\Debug\net6.0\BibliothequeCore.AssemblyInfoInputs.cache
+C:\Users\bechir\source\repos\CoreSolution\BibliothequeCore\obj\Debug\net6.0\BibliothequeCore.AssemblyInfo.cs
+C:\Users\bechir\source\repos\CoreSolution\BibliothequeCore\obj\Debug\net6.0\BibliothequeCore.csproj.CoreCompileInputs.cache
+C:\Users\bechir\source\repos\CoreSolution\BibliothequeCore\obj\Debug\net6.0\BibliothequeCore.dll
+C:\Users\bechir\source\repos\CoreSolution\BibliothequeCore\obj\Debug\net6.0\refint\BibliothequeCore.dll
+C:\Users\bechir\source\repos\CoreSolution\BibliothequeCore\obj\Debug\net6.0\BibliothequeCore.pdb
+C:\Users\bechir\source\repos\CoreSolution\BibliothequeCore\obj\Debug\net6.0\ref\BibliothequeCore.dll
