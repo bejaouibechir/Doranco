@@ -1,0 +1,15 @@
+C:\Users\bechir\source\repos\CoreSolution\ConceptImportantsCore\obj\Debug\net6.0\ConceptImportantsCore.csproj.AssemblyReference.cache
+C:\Users\bechir\source\repos\CoreSolution\ConceptImportantsCore\obj\Debug\net6.0\ConceptImportantsCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bechir\source\repos\CoreSolution\ConceptImportantsCore\obj\Debug\net6.0\ConceptImportantsCore.AssemblyInfoInputs.cache
+C:\Users\bechir\source\repos\CoreSolution\ConceptImportantsCore\obj\Debug\net6.0\ConceptImportantsCore.AssemblyInfo.cs
+C:\Users\bechir\source\repos\CoreSolution\ConceptImportantsCore\obj\Debug\net6.0\ConceptImportantsCore.csproj.CoreCompileInputs.cache
+C:\Users\bechir\source\repos\CoreSolution\ConceptImportantsCore\bin\Debug\net6.0\ConceptImportantsCore.exe
+C:\Users\bechir\source\repos\CoreSolution\ConceptImportantsCore\bin\Debug\net6.0\ConceptImportantsCore.deps.json
+C:\Users\bechir\source\repos\CoreSolution\ConceptImportantsCore\bin\Debug\net6.0\ConceptImportantsCore.runtimeconfig.json
+C:\Users\bechir\source\repos\CoreSolution\ConceptImportantsCore\bin\Debug\net6.0\ConceptImportantsCore.dll
+C:\Users\bechir\source\repos\CoreSolution\ConceptImportantsCore\bin\Debug\net6.0\ConceptImportantsCore.pdb
+C:\Users\bechir\source\repos\CoreSolution\ConceptImportantsCore\obj\Debug\net6.0\ConceptImportantsCore.dll
+C:\Users\bechir\source\repos\CoreSolution\ConceptImportantsCore\obj\Debug\net6.0\refint\ConceptImportantsCore.dll
+C:\Users\bechir\source\repos\CoreSolution\ConceptImportantsCore\obj\Debug\net6.0\ConceptImportantsCore.pdb
+C:\Users\bechir\source\repos\CoreSolution\ConceptImportantsCore\obj\Debug\net6.0\ConceptImportantsCore.genruntimeconfig.cache
+C:\Users\bechir\source\repos\CoreSolution\ConceptImportantsCore\obj\Debug\net6.0\ref\ConceptImportantsCore.dll
