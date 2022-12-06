@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "TBNQodH/nqzf6+4Nj8DWqSYlEalKYUxd99cSt+EuS9Npf43kBFMDCtPodKPp10qRvrNZgfPJVie3GWgewg5rjA==",
+  "dgSpecHash": "ROPA0WsrI2rcXJG0T5Z8GoLZk4cZvXzErcKXFkl58LHjWctZ2TttWZk8NUdpjOhAsqjO3xvE9oHNpColp8+yWg==",
   "success": true,
   "projectFilePath": "C:\\Users\\bechir\\source\\repos\\CoreSolution\\BibliothequeCore\\BibliothequeCore.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512"
+  ],
   "logs": []
 }

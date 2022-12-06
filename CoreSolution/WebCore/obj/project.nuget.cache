@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "yAUc+G1tkVgVjmqXP7zcMuT2Zozm1DeEsSf//zaZNbQgB9NdeS2tnt5FBKAclqh7DpQWkKeTZ0j9s1hKDC2aBA==",
+  "dgSpecHash": "CM5SYl2P+IHWIuk2LqY2P03sgSprsZ4lw0L1iMliysxDXSEzwj2Qzgsi4O0xUkLcdT6yX6Ry4rM0QURmNmnk0g==",
   "success": true,
   "projectFilePath": "C:\\Users\\bechir\\source\\repos\\CoreSolution\\WebCore\\WebCore.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.11\\microsoft.netcore.app.host.win-x64.6.0.11.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512"
+  ],
   "logs": []
 }

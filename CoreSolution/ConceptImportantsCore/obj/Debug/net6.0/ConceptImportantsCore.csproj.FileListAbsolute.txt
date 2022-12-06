@@ -13,3 +13,6 @@ C:\Users\bechir\source\repos\CoreSolution\ConceptImportantsCore\obj\Debug\net6.0
 C:\Users\bechir\source\repos\CoreSolution\ConceptImportantsCore\obj\Debug\net6.0\ConceptImportantsCore.pdb
 C:\Users\bechir\source\repos\CoreSolution\ConceptImportantsCore\obj\Debug\net6.0\ConceptImportantsCore.genruntimeconfig.cache
 C:\Users\bechir\source\repos\CoreSolution\ConceptImportantsCore\obj\Debug\net6.0\ref\ConceptImportantsCore.dll
+C:\Users\bechir\source\repos\CoreSolution\ConceptImportantsCore\bin\Debug\net6.0\Unity.Abstractions.dll
+C:\Users\bechir\source\repos\CoreSolution\ConceptImportantsCore\bin\Debug\net6.0\Unity.Container.dll
+C:\Users\bechir\source\repos\CoreSolution\ConceptImportantsCore\obj\Debug\net6.0\ConceptImportantsCore.csproj.CopyComplete

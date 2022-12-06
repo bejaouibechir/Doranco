@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConceptImportantsCore.DependencyInjection.DIP
+namespace ConceptImportantsCore.DependencyInjection.IOC
 {
     public  class Container
     {
 
         public void TouteLAffaire()
         {
-            IAuthentificationService service = new AuthentificationService3();
+            AuthentificationService service = new AuthentificationService();
             Application application = new Application(service);
             //Test d'authentification
             application.Authenticate("user1", "pass1");

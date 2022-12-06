@@ -44,6 +44,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Unity.Container": {
+              "target": "Package",
+              "version": "[5.11.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
