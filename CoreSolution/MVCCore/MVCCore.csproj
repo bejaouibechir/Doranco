@@ -8,6 +8,7 @@
 
   <PropertyGroup>
     <Description>Ce ci est notre premier projet MVC Core</Description>
+    <UserSecretsId>9f70a37c-9976-40c4-a174-26cc5f2230ca</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

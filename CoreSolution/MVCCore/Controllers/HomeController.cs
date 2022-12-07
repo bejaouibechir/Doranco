@@ -1,23 +1,31 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MVCCore.Models;
+using MVCCore.Services;
 using System.Diagnostics;
 
 namespace MVCCore.Controllers
 {
+   
     public class HomeController : Controller
     {
         private readonly IConfiguration _configuration;
+        private readonly IEventLogService _logservice;
 
-        public HomeController(IConfiguration configuration)
+        public HomeController(IConfiguration configuration,IEventLogService logservice) //Injection du service
         {
             _configuration = configuration;
+            _logservice = logservice;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(string id)
         {
-            int port = int.Parse(_configuration.GetSection("port").Value);
-            string connectionstring = _configuration.GetConnectionString("connection");
-           
+            //int port = int.Parse(_configuration.GetSection("port").Value);
+            //string connectionstring = _configuration.GetConnectionString("connection");
+            //string password = _configuration["password"];
+
+            _logservice.Log("L'action Index du contrôleur " +
+                "HomeController est lancée", NiveauAlerte.Information);
+
             return View();
         }
 
@@ -28,6 +36,8 @@ namespace MVCCore.Controllers
 
         public IActionResult Bechir()
         {
+            _logservice.Log("L'action Bechir du contrôleur " +
+                 "HomeController est lancée", NiveauAlerte.Information);
             return View();
         }
 

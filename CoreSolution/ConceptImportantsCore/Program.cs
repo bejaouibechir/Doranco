@@ -38,7 +38,7 @@ namespace ConceptImportants
            // Ecole eleves = new Ecole();
             //var element = eleves.Rechercher(e => e.Id == 8);
 
-            ResultatCalcul((x, y) => x - y);
+            ResultatCalcul((x, y) => x + y);
 
         }
 

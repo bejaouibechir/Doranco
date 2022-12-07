@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Security;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
@@ -35,6 +36,15 @@ namespace MVCFramework
 
         protected void Application_BeginRequest()
         {
+            Debug.WriteLine(HttpContext.Current.Request.Path);
+
+            if(HttpContext.Current.User==null)
+            {
+                if (HttpContext.Current.Request.Path == "/Home/About")
+                    throw new SecurityException("Vous n'êtes pas autorisé(e) à voir cette page si vous " +
+                        "n'êtes pas authentifié(e)");
+            }
+
             Debug.WriteLine($"Debut de requête à {DateTime.Now.Hour}:{DateTime.Now.Minute}:{DateTime.Now.Second}");
             nbHits++;
         }

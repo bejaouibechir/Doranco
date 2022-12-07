@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("9f70a37c-9976-40c4-a174-26cc5f2230ca")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MVCCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Ce ci est notre premier projet MVC Core")]

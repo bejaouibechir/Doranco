@@ -1,0 +1,10 @@
+﻿Demarage de l'application
+/
+Debut de requête à 16:44:8
+Fin de requête à 16:44:21
+/Home/About
+Exception thrown: 'System.Security.SecurityException' in MVCFramework.dll
+An exception of type 'System.Security.SecurityException' occurred in MVCFramework.dll but was not handled in user code
+Vous n'êtes pas autorisé(e) à voir cette page si vous n'êtes pas authentifié(e)
+
+Fin de requête à 16:44:52
