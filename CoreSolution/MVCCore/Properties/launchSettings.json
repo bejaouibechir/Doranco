@@ -19,6 +19,33 @@
       "dotnetRunMessages": true,
       "applicationUrl": "https://localhost:7500;http://localhost:7501"
     },
+    "Dev": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:8000;http://localhost:8001"
+    },
+    "Staging": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Staging"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:9000;http://localhost:9001"
+    },
+    "Prod": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:9100;http://localhost:9101"
+    },
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,

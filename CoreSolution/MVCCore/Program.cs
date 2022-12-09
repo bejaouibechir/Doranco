@@ -33,7 +33,7 @@ builder.Services.AddEventLogService();
 //Ajouter le service de configuration
 var currentConfig = builder.Configuration;
 
-var app = builder.Build();
+var app = builder.Build(); //app est de type WebApplication
 
 // Configure the HTTP request pipeline.
 //if (!app.Environment.IsDevelopment())
@@ -59,9 +59,6 @@ else if (app.Environment.IsProduction()) //Production
         ,EventLogEntryType.Information);
 }
 
-
-
-app.UseXXX();
 
 app.UseHttpsRedirection();
 

@@ -29,6 +29,13 @@ namespace MVCCore.Controllers
             return View();
         }
 
+        public IActionResult Test()
+        {
+            return RedirectToAction("Index", "Personne");
+        }
+        
+
+
         public IActionResult Privacy()
         {
             return View();

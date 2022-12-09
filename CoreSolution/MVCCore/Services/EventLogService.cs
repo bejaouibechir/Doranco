@@ -53,7 +53,7 @@ namespace MVCCore.Services
                 smtp.UseDefaultCredentials = false;
 
                 #region secret
-                smtp.Credentials = new NetworkCredential("me780411@gmail.com", "");
+                smtp.Credentials = new NetworkCredential("me780411@gmail.com", "ggkdqrdvdocklzqj");
                 #endregion
 
                 smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
