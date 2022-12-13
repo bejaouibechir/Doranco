@@ -1,0 +1,16 @@
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfBackend\bin\Debug\WpfBackend.exe.config
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfBackend\bin\Debug\WpfBackend.exe
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfBackend\bin\Debug\WpfBackend.pdb
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfBackend\obj\Debug\WpfBackend.csproj.AssemblyReference.cache
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfBackend\obj\Debug\WpfBackend.csproj.SuggestedBindingRedirects.cache
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfBackend\obj\Debug\MainWindow.g.cs
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfBackend\obj\Debug\App.g.cs
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfBackend\obj\Debug\WpfBackend_MarkupCompile.cache
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfBackend\obj\Debug\WpfBackend_MarkupCompile.lref
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfBackend\obj\Debug\MainWindow.baml
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfBackend\obj\Debug\WpfBackend.g.resources
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfBackend\obj\Debug\WpfBackend.Properties.Resources.resources
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfBackend\obj\Debug\WpfBackend.csproj.GenerateResource.cache
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfBackend\obj\Debug\WpfBackend.csproj.CoreCompileInputs.cache
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfBackend\obj\Debug\WpfBackend.exe
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfBackend\obj\Debug\WpfBackend.pdb

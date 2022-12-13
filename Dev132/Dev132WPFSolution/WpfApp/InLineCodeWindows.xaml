@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfApp.InLineCodeWindows"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="InLineCodeWindows" Height="450" Width="800">
+    <Grid>
+        <Button Name="btn"
+                Content="Button"
+                Width="200" Height="59"
+                HorizontalAlignment="Left"  
+                VerticalAlignment="Top"
+                MouseEnter="test_Click"
+                >
+            <x:Code>
+                <![CDATA[
+                private void test_Click(object sender, RoutedEventArgs e)
+                {
+                    MessageBox.Show("Ce ci est un bouton cliqué");
+                }
+            ]]>
+            </x:Code>
+        </Button>
+
+
+    </Grid>
+</Window>

@@ -16,3 +16,10 @@ C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\WpfApp.exe
 C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\WpfApp.pdb
 C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\DargNDropWindow.g.cs
 C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\DargNDropWindow.baml
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\XamlSamples.g.cs
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\XamlSamples.baml
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\AbonnementEvent.g.cs
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\AbonnementEvent.baml
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\InLineCodeWindows.g.cs
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\InLineCodeWindows.baml

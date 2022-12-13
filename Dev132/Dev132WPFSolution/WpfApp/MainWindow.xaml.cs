@@ -81,5 +81,14 @@ namespace WpfApp
                 txtPrenom.Background = new SolidColorBrush(Colors.White);
         }
 
+        private void Label_MouseEnter(object sender, MouseEventArgs e)
+        {
+            ;
+        }
+
+        private void Label_MouseLeave(object sender, MouseEventArgs e)
+        {
+            
+        }
     }
 }
