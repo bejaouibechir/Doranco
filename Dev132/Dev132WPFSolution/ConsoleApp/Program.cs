@@ -6,6 +6,7 @@ namespace ConsoleApp
 {
     internal class Program
     {
+        int i = 10;
 
         static string chaine = string.Empty; // => "  " 
         static Stopwatch chrono = new Stopwatch();
@@ -14,6 +15,8 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
              
+            
+
             chrono.Start();
             for (int i = 0; i < 20000; i++)
             {

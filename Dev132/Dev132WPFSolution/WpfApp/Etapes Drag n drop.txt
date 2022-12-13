@@ -1,0 +1,24 @@
+﻿---------- Etapes d'implémentation de drag n drop ----------------------------------
+
+1. Détectez le glisser comme une combinaison de MouseMove et MouseLeftButtonDown
+
+2. Créez un DataObject qui contient le format, les données et les effets autorisés.
+
+3. Lancez le glissement en appelant DoDragDrop() ligne 60
+
+4. Définissez la propriété AllowDrop=True sur la liste que vous souhaitez autoriser à déposer.
+
+5. Enregistrez un gestionnaire d'événement DragEnter pour détecter un glissement 
+   sur l'emplacement de dépôt.
+
+6. Vérifiez le format et les données en appelant GetDataPresent() 
+    sur les arguments de l'événement. Si les données peuvent être supprimées, 
+    définissez la propriété Effect sur les arguments d'événement pour afficher 
+    le curseur de souris approprié.
+
+7. Appelez l' événement DragDrop, lorsque l'utilisateur relâche le bouton de la souris. 
+   
+8. Obtenez les données en appelant la méthode GetData() sur l'objet Data fourni dans
+   les arguments d'événement.
+
+... et c'est toute la magie.

@@ -1,0 +1,11 @@
+C:\Users\bechir\source\repos\Dev132WPFSolution\WinFormsApp\bin\Debug\WinFormsApp.exe.config
+C:\Users\bechir\source\repos\Dev132WPFSolution\WinFormsApp\bin\Debug\WinFormsApp.exe
+C:\Users\bechir\source\repos\Dev132WPFSolution\WinFormsApp\bin\Debug\WinFormsApp.pdb
+C:\Users\bechir\source\repos\Dev132WPFSolution\WinFormsApp\obj\Debug\WinFormsApp.csproj.AssemblyReference.cache
+C:\Users\bechir\source\repos\Dev132WPFSolution\WinFormsApp\obj\Debug\WinFormsApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\bechir\source\repos\Dev132WPFSolution\WinFormsApp\obj\Debug\WinFormsApp.Form1.resources
+C:\Users\bechir\source\repos\Dev132WPFSolution\WinFormsApp\obj\Debug\WinFormsApp.Properties.Resources.resources
+C:\Users\bechir\source\repos\Dev132WPFSolution\WinFormsApp\obj\Debug\WinFormsApp.csproj.GenerateResource.cache
+C:\Users\bechir\source\repos\Dev132WPFSolution\WinFormsApp\obj\Debug\WinFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\bechir\source\repos\Dev132WPFSolution\WinFormsApp\obj\Debug\WinFormsApp.exe
+C:\Users\bechir\source\repos\Dev132WPFSolution\WinFormsApp\obj\Debug\WinFormsApp.pdb

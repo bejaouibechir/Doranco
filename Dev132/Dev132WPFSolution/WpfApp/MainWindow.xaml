@@ -5,8 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="150" Width="305">
     <Grid>
-        
+        <Label Content="Nom: "
+              
+               HorizontalAlignment="Left" Margin="43,33,0,0" VerticalAlignment="Top"/>
+        <Label Content="Prénom: " HorizontalAlignment="Left" Margin="40,63,0,0" VerticalAlignment="Top"/>
+        <TextBox MouseEnter="txtMouseEnter" 
+                 MouseLeave="txtMouseLeave"
+                 Name="txtNom" HorizontalAlignment="Left" Margin="110,36,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="155" AutomationProperties.Name="txt"/>
+        <TextBox 
+             MouseEnter="txtMouseEnter"
+             MouseLeave="txtMouseLeave"
+            Name="txtPrenom" HorizontalAlignment="Left" Margin="110,66,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="155"/>
+        <Button Name="AnnulerBtn" 
+                Background="Blue"
+                Foreground="White"
+                Content="Annuler" HorizontalAlignment="Left" Margin="160,104,0,0" VerticalAlignment="Top" 
+                Click="AnnulerBtn_Click" 
+                MouseEnter="AnnulerBtn_MouseEnter" 
+                MouseLeave="AnnulerBtn_MouseLeave"
+                />
+        <Button Name="AfficherBtn" 
+                Background="Blue"
+                Foreground="White"
+                Content="Afficher" HorizontalAlignment="Left" Margin="220,104,0,0" VerticalAlignment="Top" Click="AfficherBtn_Click"/>
+
     </Grid>
 </Window>
