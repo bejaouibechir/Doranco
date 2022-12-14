@@ -23,3 +23,16 @@ C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\AbonnementEvent.
 C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\AbonnementEvent.baml
 C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\InLineCodeWindows.g.cs
 C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\InLineCodeWindows.baml
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\TestRegionWindow.g.cs
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\TestRegionWindow.baml
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\HierarchieWindow.g.cs
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\HierarchieWindow.baml
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\DecoratorsWindows.g.cs
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\DecoratorsWindows.baml
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\PanelsWindow.g.cs
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\PanelsWindow.baml
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\bin\Debug\AvalonDock.dll
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\bin\Debug\AvalonDock.pdb
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\WpfApp.csproj.CopyComplete
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\GridWindow.g.cs
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\GridWindow.baml

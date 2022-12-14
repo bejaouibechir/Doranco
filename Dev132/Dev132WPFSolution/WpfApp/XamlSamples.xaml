@@ -6,15 +6,18 @@
         mc:Ignorable="d"
         xmlns:local="clr-namespace:WpfApp"
         xmlns:data="clr-namespace:WpfApp.Data"
+        xmlns:ext="clr-namespace:WpfApp.Markups"
         Loaded="Window_Loaded"
         Title="XamlSamples" Height="450" Width="800">
     <Window.Resources>
         <data:PersonneList x:Key="plist"/>
     </Window.Resources>
     <Grid Name="container">
-        <!--<listview itemssource="{staticresource plist}"/>-->
-        <ListView Name="list"/>
-
+        <ListView Background="AliceBlue" 
+                  ItemsSource="{StaticResource plist}"/>
+        
+        <!--<Button Background="{ext:ColoringBinding Coloring=AliceBlue}"/>-->  
+        <!--<ListView Name="list"/>-->
         <!--Forme utilisant seulement des éléments
         <Button>
             <Button.Content>Cliquer ici</Button.Content>

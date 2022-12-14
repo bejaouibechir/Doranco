@@ -1,0 +1,83 @@
+﻿<Window x:Class="WpfApp.DecoratorsWindows"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="DecoratorsWindows" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="9*" />
+        </Grid.RowDefinitions>
+        <Menu>
+            <MenuItem Header="File">
+                <MenuItem Header="New" Click="New_MenuItem" />
+                <MenuItem Header="Open" Click="Open_MenuItem" />
+                <MenuItem Header="Save"/>
+                <MenuItem Header="Save As ..."/>
+                <MenuItem Header="Print"/>
+                <MenuItem Header="Close" Click="Close_MenuItem" />
+            </MenuItem>
+            <MenuItem Header="Edit">
+                <MenuItem Header="Cut"/>
+                <MenuItem Header="Copy"/>
+                <MenuItem Header="Paste"/>
+                <MenuItem Header="Delete"/>
+            </MenuItem>
+        </Menu>
+
+        <TabControl Grid.Row="1">
+            <TabItem Header="Filiales" >
+                <Label VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+                        </Grid.ColumnDefinitions>
+                        <Image Source="/Images/warning.png" Width="20" Height="20" />
+                        <TextBlock Grid.Column="1" 
+                                   Margin="5"
+                                   Text="Attentiton ce ci est un label"/>
+                    </Grid>
+                </Label>
+                <!--<TextBlock Text="Ce ci est un Textblock"/>-->
+                <!--<TextBox Text="Ce ci est un Textbox"/>-->
+            </TabItem>
+            <TabItem Header="Departements" >
+                <TextBlock Text="Ici zonne des departements" FontSize="20" 
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"/>
+            </TabItem>
+            <TabItem Header="Clients" >
+                <TextBlock Text="Ici zonne des clients" FontSize="20" 
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"/>
+            </TabItem>
+            <TabItem Header="Fournisseurs" >
+                <TextBlock Text="Ici zonne des fournisseurs" FontSize="20" 
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"/>
+            </TabItem>
+        </TabControl>
+
+        <!--<Button  BorderBrush="Black" BorderThickness="3" 
+                 Width="200" Height="50"
+                 VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button.Content>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="1*" />
+                    </Grid.ColumnDefinitions>
+                    <Image Source="/Images/warning.png" Margin="10" />
+                    <TextBlock Text="Attention!!"
+                               FontSize="15"
+                               Grid.Column="1"
+                               VerticalAlignment="Center" Margin="20,0,0,0" />
+                </Grid>
+            </Button.Content>   
+        </Button>-->
+    </Grid>
+</Window>

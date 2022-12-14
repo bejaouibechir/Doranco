@@ -1,0 +1,32 @@
+﻿<Window x:Class="WpfApp.HierarchieWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        xmlns:ext="clr-namespace:WpfApp.Markups"
+        mc:Ignorable="d"
+        Title="HierarchieWindow" Height="450" Width="800">
+    <Grid Name="lvl1grd">
+        <Grid Margin="20" Name="lvl2grd">
+            <Grid Name="lvl3grd" Margin="20">
+                <Border Name="lvl1brd" Margin="20">
+                    <Grid Name="lvl4grd" Margin="20">
+                        <Border Name="lvl2brd" Margin="20">
+                            <Grid Name="lvl5grd" Margin="20">
+                                <Button Background="{ext:ColoringBinding Coloring=AliceBlue}"
+                                    
+                                    Content="Find parent"
+                                    Click="Button_Click">
+                                    <!--<Button.RenderTransform>
+                                        <RotateTransform Angle="45" CenterX="20" CenterY="20"/>
+                                    </Button.RenderTransform>-->
+                                </Button>
+                            </Grid>
+                        </Border>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

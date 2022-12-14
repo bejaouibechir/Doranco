@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("etapes%20drag%20n%20drop.txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/warning.png")]
 
 

@@ -1,0 +1,328 @@
+﻿<Window x:Class="WpfApp.PanelsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        xmlns:ava="clr-namespace:AvalonDock;assembly=AvalonDock"
+        mc:Ignorable="d"
+        
+        Title="PanelsWindow" Height="450" Width="800">
+
+    <TabControl>
+        <TabItem Header="Dock panel">
+            <DockPanel LastChildFill="True">
+                <Border Height="25" Background="SkyBlue" BorderBrush="Black" BorderThickness="1" DockPanel.Dock="Top">
+                    <TextBlock Foreground="Black">Dock = "Top"</TextBlock>
+                </Border>
+                
+                <Border Height="25" Background="SkyBlue" BorderBrush="Black" BorderThickness="1" DockPanel.Dock="Top">
+                    <TextBlock Foreground="Black">Dock = "Top"</TextBlock>
+                </Border>
+                <Border Height="25" Background="LemonChiffon" BorderBrush="Black" BorderThickness="1" DockPanel.Dock="Bottom">
+                    <TextBlock Foreground="Black">Dock = "Bottom"</TextBlock>
+                </Border>
+
+                <Button DockPanel.Dock="Left"
+                            Click="Button_Click_1"
+                          HorizontalAlignment="Center">
+                    <Button.Content>
+                        <TextBlock Text="Toolbox">
+                            <TextBlock.RenderTransform>
+                                <RotateTransform  
+                                Angle="90" CenterX="25"/>
+                            </TextBlock.RenderTransform>
+                        </TextBlock>
+                    </Button.Content>
+                </Button>
+
+                <Border Width="230" 
+                        Name="leftzone"
+                        Background="PaleGreen"
+                        BorderBrush="Black" BorderThickness="1"
+                        DockPanel.Dock="Left">
+                    <TextBlock Foreground="Black">Dock = "Left"</TextBlock>
+                </Border>
+                <Border Background="White" BorderBrush="Black" BorderThickness="1">
+                    <TextBlock Foreground="Black">This content will "Fill" the remaining space</TextBlock>
+                </Border>
+            </DockPanel>
+        </TabItem>
+
+
+        <!--#region Exemple de canvas--> 
+        <TabItem Header="Canvas">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="9*" />
+                    <RowDefinition Height="1*" />
+                </Grid.RowDefinitions>
+                <Canvas 
+            Name="canvas"
+            Grid.Column="1" Margin="20">
+                    <Ellipse
+                 Name="elipse"
+                 Width="125" Height="125" 
+                 Fill="Red" >
+                        <!--<Ellipse.RenderTransform>
+                    <TranslateTransform X="60" Y="45"/>
+                </Ellipse.RenderTransform>-->
+                    </Ellipse>
+                </Canvas>
+                <Button Grid.Row="1" 
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                Click="Button_Click"
+                Content="Bouger"/>
+            </Grid>
+        </TabItem>
+      <!--#endregion-->
+
+      <!--#region Exemple de Stack Panel & Wrap Panel -->      
+        <TabItem Header="Stack Panel">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+                
+                <StackPanel Orientation="Horizontal"          
+                Background="Azure">
+                    <Border CornerRadius="10"
+                        BorderBrush="Black"
+                        BorderThickness="2"
+                        Background="AliceBlue">
+                        <TextBlock 
+                        Margin="20"
+                        Text="Texte 1"
+                        FontSize="20"
+                        />
+                    </Border>
+                    <Border CornerRadius="10"
+                        BorderBrush="Black"
+                        BorderThickness="2"
+                        Background="AliceBlue">
+                        <TextBlock 
+                        Margin="20"
+                        Text="Texte 2"
+                        FontSize="20"
+                        />
+                    </Border>
+                    <Border CornerRadius="10"
+                        BorderBrush="Black"
+                        BorderThickness="2"
+                        Background="AliceBlue">
+                        <TextBlock 
+                        Margin="20"
+                        Text="Texte 3"
+                        FontSize="20"
+                        />
+                    </Border>
+                    <Border CornerRadius="10"
+                        BorderBrush="Black"
+                        BorderThickness="2"
+                        Background="AliceBlue">
+                        <TextBlock 
+                        Margin="20"
+                        Text="Texte 4"
+                        FontSize="20"
+                        />
+                    </Border>
+                    <Border CornerRadius="10"
+                        BorderBrush="Black"
+                        BorderThickness="2"
+                        Background="AliceBlue">
+                        <TextBlock 
+                        Margin="20"
+                        Text="Texte 5"
+                        FontSize="20"
+                        />
+                    </Border>
+                    <Border CornerRadius="10"
+                        BorderBrush="Black"
+                        BorderThickness="2"
+                        Background="AliceBlue">
+                        <TextBlock 
+                        Margin="20"
+                        Text="Texte 6"
+                        FontSize="20"
+                        />
+                    </Border>
+                    <Border CornerRadius="10"
+                        BorderBrush="Black"
+                        BorderThickness="2"
+                        Background="AliceBlue">
+                        <TextBlock 
+                        Margin="20"
+                        Text="Texte 7"
+                        FontSize="20"
+                        />
+                    </Border>
+                </StackPanel>
+                
+                
+                
+
+                <WrapPanel Grid.Column="1"           
+                  Orientation="Horizontal"
+                           Background="Azure">
+                    <Border CornerRadius="10"
+                        BorderBrush="Black"
+                        BorderThickness="2"
+                        Background="AliceBlue">
+                        <TextBlock 
+                        Margin="20"
+                        Text="Texte 1"
+                        FontSize="20"
+                        />
+                    </Border>
+                    <Border CornerRadius="10"
+                        BorderBrush="Black"
+                        BorderThickness="2"
+                        Background="AliceBlue">
+                        <TextBlock 
+                        Margin="20"
+                        Text="Texte 2"
+                        FontSize="20"
+                        />
+                    </Border>
+                    <Border CornerRadius="10"
+                        BorderBrush="Black"
+                        BorderThickness="2"
+                        Background="AliceBlue">
+                        <TextBlock 
+                        Margin="20"
+                        Text="Texte 3"
+                        FontSize="20"
+                        />
+                    </Border>
+                    <Border CornerRadius="10"
+                        BorderBrush="Black"
+                        BorderThickness="2"
+                        Background="AliceBlue">
+                        <TextBlock 
+                        Margin="20"
+                        Text="Texte 1"
+                        FontSize="20"
+                        />
+                    </Border>
+                    <Border CornerRadius="10"
+                        BorderBrush="Black"
+                        BorderThickness="2"
+                        Background="AliceBlue">
+                        <TextBlock 
+                        Margin="20"
+                        Text="Texte 2"
+                        FontSize="20"
+                        />
+                    </Border>
+                    <Border CornerRadius="10"
+                        BorderBrush="Black"
+                        BorderThickness="2"
+                        Background="AliceBlue">
+                        <TextBlock 
+                        Margin="20"
+                        Text="Texte 3"
+                        FontSize="20"
+                        />
+                    </Border>
+                    <Border CornerRadius="10"
+                        BorderBrush="Black"
+                        BorderThickness="2"
+                        Background="AliceBlue">
+                        <TextBlock 
+                        Margin="20"
+                        Text="Texte 1"
+                        FontSize="20"
+                        />
+                    </Border>
+                    <Border CornerRadius="10"
+                        BorderBrush="Black"
+                        BorderThickness="2"
+                        Background="AliceBlue">
+                        <TextBlock 
+                        Margin="20"
+                        Text="Texte 2"
+                        FontSize="20"
+                        />
+                    </Border>
+                    <Border CornerRadius="10"
+                        BorderBrush="Black"
+                        BorderThickness="2"
+                        Background="AliceBlue">
+                        <TextBlock 
+                        Margin="20"
+                        Text="Texte 3"
+                        FontSize="20"
+                        />
+                    </Border>
+                    <Border CornerRadius="10"
+                        BorderBrush="Black"
+                        BorderThickness="2"
+                        Background="AliceBlue">
+                        <TextBlock 
+                        Margin="20"
+                        Text="Texte 1"
+                        FontSize="20"
+                        />
+                    </Border>
+                    <Border CornerRadius="10"
+                        BorderBrush="Black"
+                        BorderThickness="2"
+                        Background="AliceBlue">
+                        <TextBlock 
+                        Margin="20"
+                        Text="Texte 2"
+                        FontSize="20"
+                        />
+                    </Border>
+                    <Border CornerRadius="10"
+                        BorderBrush="Black"
+                        BorderThickness="2"
+                        Background="AliceBlue">
+                        <TextBlock 
+                        Margin="20"
+                        Text="Texte 3"
+                        FontSize="20"
+                        />
+                    </Border>
+                    <Border CornerRadius="10"
+                        BorderBrush="Black"
+                        BorderThickness="2"
+                        Background="AliceBlue">
+                        <TextBlock 
+                        Margin="20"
+                        Text="Texte 1"
+                        FontSize="20"
+                        />
+                    </Border>
+                    <Border CornerRadius="10"
+                        BorderBrush="Black"
+                        BorderThickness="2"
+                        Background="AliceBlue">
+                        <TextBlock 
+                        Margin="20"
+                        Text="Texte 2"
+                        FontSize="20"
+                        />
+                    </Border>
+                    <Border CornerRadius="10"
+                        BorderBrush="Black"
+                        BorderThickness="2"
+                        Background="AliceBlue">
+                        <TextBlock 
+                        Margin="20"
+                        Text="Texte 3"
+                        FontSize="20"
+                        />
+                    </Border>
+                </WrapPanel>
+
+            </Grid>
+        </TabItem>
+        <!--#endregion -->
+
+      
+        
+    </TabControl>
+</Window>

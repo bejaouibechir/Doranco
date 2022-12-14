@@ -1,0 +1,50 @@
+﻿<Window x:Class="WpfApp.TestRegionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="TestRegionWindow" Height="450" Width="800">
+
+    <Grid>
+        <Grid Margin="20" Name="level2grd">
+            <Border Margin="22">
+                <Grid Margin="20">
+                    <Button Margin="20" Content="Cliquez moi"/>
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+  
+      
+    <!--<Grid>
+        <TabControl SelectionChanged="TabControl_SelectionChanged">
+            --><!--#region première région --><!--
+                
+                <TabItem Header="Cat">
+                    <Grid Background="#FFE5E5E5">
+                        <TextBlock HorizontalAlignment="Left"
+                               Margin="10"
+                               TextWrapping="Wrap"
+                               Text="Take pictures of me and put them on the Internet. Meow."
+                               VerticalAlignment="Top"
+                               Width="471"/>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Mouse">
+                    <Grid Background="#FFE5E5E5">
+                        <TextBlock HorizontalAlignment="Left"
+                               Margin="10"
+                               TextWrapping="Wrap"
+                               Text="I want some cheese."
+                               VerticalAlignment="Top"
+                               Width="471"/>
+                    </Grid>
+                </TabItem>
+  
+                
+            </TabControl>
+        </Grid>-->
+
+</Window>

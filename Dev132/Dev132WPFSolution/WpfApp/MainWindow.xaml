@@ -3,11 +3,15 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+         mc:Ignorable="d"
         xmlns:local="clr-namespace:WpfApp"
-        mc:Ignorable="d"
+        xmlns:ext="clr-namespace:WpfApp.Markups"
+       
         Title="MainWindow" Height="150" Width="305">
     <Grid>
-        <Label Content="Nom: "
+        <Label 
+               Background="Beige"
+               Content="Nom: "
                MouseEnter="Label_MouseEnter"
                MouseLeave="Label_MouseLeave"
                HorizontalAlignment="Left" 
@@ -24,10 +28,10 @@
              MouseLeave="txtMouseLeave"
             Name="txtPrenom" HorizontalAlignment="Left" Margin="110,66,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="155"/>
         <Button Name="AnnulerBtn" 
-                Background="Blue"
+                Background="{ext:ColoringBinding Coloring=Aqua}"
                 Foreground="White"
                 Content="Annuler" HorizontalAlignment="Left" Margin="160,104,0,0" VerticalAlignment="Top" 
-                Click="AnnulerBtn_Click" 
+                Click="AnnulerBtn_Click"
                 MouseEnter="AnnulerBtn_MouseEnter" 
                 MouseLeave="AnnulerBtn_MouseLeave"
                 />

@@ -38,7 +38,7 @@ namespace WpfApp
             //button.Height = 100;
             //button.Margin = new Thickness(15, 44, 585, 340);
 
-            list.ItemsSource = (PersonneList)Resources["plist"];
+            //list.ItemsSource = (PersonneList)Resources["plist"];
             
 
 

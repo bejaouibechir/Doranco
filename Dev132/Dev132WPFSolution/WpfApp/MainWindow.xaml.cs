@@ -29,8 +29,10 @@ namespace WpfApp
         private void AnnulerBtn_Click(object sender, RoutedEventArgs e)
         { 
             //Application.Exit();
-            App.Current.Shutdown();
+            App.Current.Shutdown();           
         }
+
+        
 
         private void AfficherBtn_Click(object sender, RoutedEventArgs e)
         {
