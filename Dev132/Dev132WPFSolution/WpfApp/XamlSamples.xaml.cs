@@ -24,7 +24,7 @@ namespace WpfApp
         {
             InitializeComponent();
         }
-        Button button;
+        
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
 

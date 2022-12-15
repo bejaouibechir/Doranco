@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfApp.PersonalizeCtrlWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        xmlns:uc="clr-namespace:WpfUserControlsLibrary;assembly=WpfUserControlsLibrary"
+        xmlns:cc="clr-namespace:WpfCustomControlLibrary;assembly=WpfCustomControlLibrary"
+        mc:Ignorable="d"
+        Title="PersonalizeCtrlWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <uc:NumericUpDownControl Name="updown" 
+                                 Width="100"
+                                 VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <cc:MonButtonControl Grid.Column="1" Content="Cliquez moi" VerticalAlignment="Center" 
+                             HorizontalAlignment="Center" Width="100"/>
+
+        <!--<StackPanel Width="200" Height="100" VerticalAlignment="Center" HorizontalAlignment="Center" 
+                    Orientation="Vertical">
+            <TextBlock Text="{Binding ElementName=source,Path=Text,Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Background="AliceBlue"/>
+            <TextBox  Name="source" Text="Ce ce est un texte issu de Text box source"  Background="LightGreen"/>
+        </StackPanel>-->
+        
+    </Grid>
+</Window>

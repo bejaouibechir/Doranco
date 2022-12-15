@@ -59,6 +59,10 @@
     <Compile Include="AbonnementEvent.xaml.cs">
       <DependentUpon>AbonnementEvent.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ChessWindow.xaml.cs">
+      <DependentUpon>ChessWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Data\MesCouleurs.cs" />
     <Compile Include="DecoratorsWindows.xaml.cs">
       <DependentUpon>DecoratorsWindows.xaml</DependentUpon>
     </Compile>
@@ -71,9 +75,21 @@
     <Compile Include="InLineCodeWindows.xaml.cs">
       <DependentUpon>InLineCodeWindows.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ItemsCtrlWindow.xaml.cs">
+      <DependentUpon>ItemsCtrlWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Markups\ColorBinding.cs" />
     <Compile Include="PanelsWindow.xaml.cs">
       <DependentUpon>PanelsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalizeCtrlWindow.xaml.cs">
+      <DependentUpon>PersonalizeCtrlWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RichTextWindow.xaml.cs">
+      <DependentUpon>RichTextWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ShapeWindow.xaml.cs">
+      <DependentUpon>ShapeWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="TestRegionWindow.xaml.cs">
       <DependentUpon>TestRegionWindow.xaml</DependentUpon>
@@ -82,6 +98,10 @@
       <DependentUpon>XamlSamples.xaml</DependentUpon>
     </Compile>
     <Page Include="AbonnementEvent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ChessWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -105,6 +125,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ItemsCtrlWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -125,6 +149,18 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="PanelsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PersonalizeCtrlWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RichTextWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ShapeWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -175,6 +211,23 @@
       <Project>{33fcd128-85d3-4d2c-872e-2a71f0548fb6}</Project>
       <Name>AvalonDock</Name>
     </ProjectReference>
+    <ProjectReference Include="..\WpfCustomControlLibrary\WpfCustomControlLibrary.csproj">
+      <Project>{485117c8-ba7b-4928-bece-b9bd581b7734}</Project>
+      <Name>WpfCustomControlLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WpfUserControlsLibrary\WpfUserControlsLibrary.csproj">
+      <Project>{954ed3aa-e4ea-47d1-962d-22059ccb750f}</Project>
+      <Name>WpfUserControlsLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\coffee.png" />
+    <Resource Include="Images\coke.png" />
+    <Resource Include="Images\pepsi.png" />
+    <Resource Include="Images\tea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="coffee.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

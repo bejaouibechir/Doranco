@@ -1,0 +1,13 @@
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfUserControlsLibrary\bin\Debug\WpfUserControlsLibrary.dll
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfUserControlsLibrary\bin\Debug\WpfUserControlsLibrary.pdb
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfUserControlsLibrary\obj\Debug\WpfUserControlsLibrary.csproj.AssemblyReference.cache
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfUserControlsLibrary\obj\Debug\NumericUpDownControl.g.cs
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfUserControlsLibrary\obj\Debug\WpfUserControlsLibrary_MarkupCompile.cache
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfUserControlsLibrary\obj\Debug\WpfUserControlsLibrary_MarkupCompile.lref
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfUserControlsLibrary\obj\Debug\NumericUpDownControl.baml
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfUserControlsLibrary\obj\Debug\WpfUserControlsLibrary.g.resources
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfUserControlsLibrary\obj\Debug\WpfUserControlsLibrary.Properties.Resources.resources
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfUserControlsLibrary\obj\Debug\WpfUserControlsLibrary.csproj.GenerateResource.cache
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfUserControlsLibrary\obj\Debug\WpfUserControlsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfUserControlsLibrary\obj\Debug\WpfUserControlsLibrary.dll
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfUserControlsLibrary\obj\Debug\WpfUserControlsLibrary.pdb

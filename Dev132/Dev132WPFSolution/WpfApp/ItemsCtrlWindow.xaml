@@ -1,0 +1,261 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        xmlns:Data="clr-namespace:WpfApp.Data" x:Class="WpfApp.ItemsCtrlWindow"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="ItemsCtrlWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Data:MesCouleurs x:Key="couleurs"/>
+        <Data:PersonneList x:Key="personnes"/>
+    </Window.Resources>
+    <TabControl>
+        <TabItem Header="TreeView">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+                <!--#region Left tree view uses items-->
+                <TreeView VerticalAlignment="Center" Margin="20" 
+                      Width="200" Height="300"
+                      HorizontalAlignment="Center" >
+                    <TreeViewItem Header="Cold Drinks">
+                        <TreeViewItem >
+                            <TreeViewItem.Header>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="1*" />
+                                        <ColumnDefinition Width="1*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Image Source="/Images/coke.png" 
+                                       Width="20" Height="20" />
+                                    <TextBlock Text="Coke" Grid.Column="1"/>
+                                </Grid>
+                            </TreeViewItem.Header>
+                        </TreeViewItem>
+                        <TreeViewItem >
+                            <TreeViewItem.Header>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="1*" />
+                                        <ColumnDefinition Width="1*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Image Source="/Images/pepsi.png" 
+                                       Width="20" Height="20" />
+                                    <TextBlock Text="Pepsi" Grid.Column="1"/>
+                                </Grid>
+                            </TreeViewItem.Header>
+                        </TreeViewItem>
+                    </TreeViewItem>
+                    <TreeViewItem Header="Hot Drinks">
+                        <TreeViewItem >
+                            <TreeViewItem.Header>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="1*" />
+                                        <ColumnDefinition Width="1*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Image Source="/Images/coffee.png" 
+                                       Width="20" Height="20" />
+                                    <TextBlock Text="Coffee" Grid.Column="1"/>
+                                </Grid>
+                            </TreeViewItem.Header>
+                        </TreeViewItem>
+                        <TreeViewItem >
+                            <TreeViewItem.Header>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="1*" />
+                                        <ColumnDefinition Width="1*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Image Source="/Images/tea.png" 
+                                       Width="20" Height="20" />
+                                    <TextBlock Text="Tea" Grid.Column="1"/>
+                                </Grid>
+                            </TreeViewItem.Header>
+                        </TreeViewItem>
+                    </TreeViewItem>
+                </TreeView>
+                <!--#endregion-->
+
+                <!--#region  Right treeview uses itemssource-->
+                <TreeView x:Name="foldersTreeView" Grid.Column="1" Margin="20"/>
+
+
+                <!--#endregion-->
+            </Grid>
+
+        </TabItem>
+
+
+        <TabItem Header="Combo box">
+            <Grid>
+                
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+                <ComboBox x:Name="cmd"
+                      Width="200"
+                      VerticalAlignment="Center" 
+                      HorizontalAlignment="Center">
+                    <ComboBoxItem>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="3*" />
+                            </Grid.ColumnDefinitions>
+                            <Ellipse Fill="Red"
+                                 Width="20" Height="20"/>
+                            <TextBlock Margin="10"
+                                   Text="Rouge"
+                                   Grid.Column="1"
+                                   VerticalAlignment="Center"/>
+                        </Grid>
+                    </ComboBoxItem>
+                    <ComboBoxItem>
+                        <ComboBoxItem>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*" />
+                                    <ColumnDefinition Width="3*" />
+                                </Grid.ColumnDefinitions>
+                                <Ellipse Fill="Green"
+                                 Width="20" Height="20"/>
+                                <TextBlock Margin="10"
+                                   Text="Vert"
+                                   Grid.Column="1"
+                                   VerticalAlignment="Center"/>
+                            </Grid>
+                        </ComboBoxItem>
+                    </ComboBoxItem>
+                    <ComboBoxItem>
+                        <ComboBoxItem>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*" />
+                                    <ColumnDefinition Width="3*" />
+                                </Grid.ColumnDefinitions>
+                                <Ellipse Fill="Blue"
+                                 Width="20" Height="20"/>
+                                <TextBlock Margin="10"
+                                   Text="Bleu"
+                                   Grid.Column="1"
+                                   VerticalAlignment="Center"/>
+                            </Grid>
+                        </ComboBoxItem>
+                    </ComboBoxItem>
+                    
+                </ComboBox>
+
+                <ComboBox ItemsSource="{StaticResource couleurs}"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    Width="200"
+                    Grid.Column="1"
+                    x:Name="dynamiquecmd">
+
+                   
+
+                </ComboBox>
+
+            </Grid>
+        </TabItem>
+       
+        <TabItem Header="ListBox">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+                <ListBox Margin="20">
+                    <ListBoxItem>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="3*" />
+                            </Grid.ColumnDefinitions>
+                            <Ellipse Fill="Red"
+                                 Width="20" Height="20"/>
+                            <TextBlock Margin="10"
+                                   Text="Rouge"
+                                   Grid.Column="1"
+                                   VerticalAlignment="Center"/>
+                        </Grid>
+                    </ListBoxItem>
+                    <ListBoxItem>
+                        <ListBoxItem>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*" />
+                                    <ColumnDefinition Width="3*" />
+                                </Grid.ColumnDefinitions>
+                                <Ellipse Fill="Green"
+                                 Width="20" Height="20"/>
+                                <TextBlock Margin="10"
+                                   Text="Vert"
+                                   Grid.Column="1"
+                                   VerticalAlignment="Center"/>
+                            </Grid>
+                        </ListBoxItem>
+                    </ListBoxItem>
+                    <ListBoxItem>
+                        <ListBoxItem>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*" />
+                                    <ColumnDefinition Width="3*" />
+                                </Grid.ColumnDefinitions>
+                                <Ellipse Fill="Blue"
+                                 Width="20" Height="20"/>
+                                <TextBlock Margin="10"
+                                   Text="Bleu"
+                                   Grid.Column="1"
+                                   VerticalAlignment="Center"/>
+                            </Grid>
+                        </ListBoxItem>
+                    </ListBoxItem>
+                </ListBox>
+                <!--<ListBox Margin="20" Grid.Column="1"
+                         ItemsSource="{StaticResource couleurs}"
+                         >-->
+                <ListBox Name="dynamicList" Margin="20" Grid.Column="1">
+                    </ListBox>
+            </Grid>
+        </TabItem>
+
+        <TabItem Header="ListView">
+            <ListView Name="personnelist">
+
+                <ListView.View>
+
+                    <GridView AllowsColumnReorder="true" ColumnHeaderToolTip="Employee Information">
+
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Id}" Header="Identifiant" Width="100"/>
+
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Nom}" Width="100">
+                            <GridViewColumnHeader>Nom
+                                <GridViewColumnHeader.ContextMenu>
+                                    <ContextMenu Name="Trier">
+                                        <MenuItem Header="Ascending" Name="asc" Click="Trier_Click" />
+                                        <MenuItem Header="Descending" Name="dsc" Click="Trier_Click"  />
+                                    </ContextMenu>
+                                </GridViewColumnHeader.ContextMenu>
+                            </GridViewColumnHeader>
+                        </GridViewColumn>
+
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Poid}" Header="Poid" Width="100"/>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Taille}" Header="Taille" Width="100"/>
+                    </GridView>
+
+                </ListView.View>
+            </ListView>
+        </TabItem>
+
+       
+    </TabControl>
+</Window>

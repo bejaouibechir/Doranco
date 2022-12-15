@@ -36,3 +36,17 @@ C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\bin\Debug\AvalonDock.pdb
 C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\WpfApp.csproj.CopyComplete
 C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\GridWindow.g.cs
 C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\GridWindow.baml
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\ChessWindow.g.cs
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\ChessWindow.baml
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\ItemsCtrlWindow.g.cs
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\ItemsCtrlWindow.baml
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\RichTextWindow.g.cs
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\RichTextWindow.baml
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\PersonalizeCtrlWindow.g.cs
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\ShapeWindow.g.cs
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\PersonalizeCtrlWindow.baml
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\ShapeWindow.baml
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\bin\Debug\WpfUserControlsLibrary.dll
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\bin\Debug\WpfUserControlsLibrary.pdb
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\bin\Debug\WpfCustomControlLibrary.dll
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\bin\Debug\WpfCustomControlLibrary.pdb
