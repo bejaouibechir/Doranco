@@ -38,6 +38,7 @@
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -59,12 +60,25 @@
     <Compile Include="AbonnementEvent.xaml.cs">
       <DependentUpon>AbonnementEvent.xaml</DependentUpon>
     </Compile>
+    <Compile Include="BindingWindow.xaml.cs">
+      <DependentUpon>BindingWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ChessWindow.xaml.cs">
       <DependentUpon>ChessWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Converters\AddConverter.cs" />
+    <Compile Include="Converters\MultiColorConverter.cs" />
+    <Compile Include="Converters\PersentageFormatConverter.cs" />
+    <Compile Include="Data\DirectoryItem.cs" />
+    <Compile Include="Data\FileItem.cs" />
+    <Compile Include="Data\Item.cs" />
+    <Compile Include="Data\ItemProvider.cs" />
     <Compile Include="Data\MesCouleurs.cs" />
     <Compile Include="DecoratorsWindows.xaml.cs">
       <DependentUpon>DecoratorsWindows.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DispositionCtrlWindow.xaml.cs">
+      <DependentUpon>DispositionCtrlWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="GridWindow.xaml.cs">
       <DependentUpon>GridWindow.xaml</DependentUpon>
@@ -79,11 +93,17 @@
       <DependentUpon>ItemsCtrlWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Markups\ColorBinding.cs" />
+    <Compile Include="MultiColorWindow.xaml.cs">
+      <DependentUpon>MultiColorWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PanelsWindow.xaml.cs">
       <DependentUpon>PanelsWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="PersonalizeCtrlWindow.xaml.cs">
       <DependentUpon>PersonalizeCtrlWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RelativeSourceWindow.xaml.cs">
+      <DependentUpon>RelativeSourceWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="RichTextWindow.xaml.cs">
       <DependentUpon>RichTextWindow.xaml</DependentUpon>
@@ -91,13 +111,23 @@
     <Compile Include="ShapeWindow.xaml.cs">
       <DependentUpon>ShapeWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="StylesWindow.xaml.cs">
+      <DependentUpon>StylesWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TestRegionWindow.xaml.cs">
       <DependentUpon>TestRegionWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TestWindow.xaml.cs">
+      <DependentUpon>TestWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="XamlSamples.xaml.cs">
       <DependentUpon>XamlSamples.xaml</DependentUpon>
     </Compile>
     <Page Include="AbonnementEvent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BindingWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -110,6 +140,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="DecoratorsWindows.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DispositionCtrlWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -148,11 +182,23 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="MesStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MultiColorWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="PanelsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="PersonalizeCtrlWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RelativeSourceWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -164,7 +210,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="StylesWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="TestRegionWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TestWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -229,5 +283,10 @@
   <ItemGroup>
     <Resource Include="coffee.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\file.png" />
+    <Resource Include="Images\folder.png" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

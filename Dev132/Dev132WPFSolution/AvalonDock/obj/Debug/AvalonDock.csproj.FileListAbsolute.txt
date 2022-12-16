@@ -1,0 +1,6 @@
+C:\Users\bechir\source\repos\Dev132WPFSolution\AvalonDock\bin\Debug\AvalonDock.dll
+C:\Users\bechir\source\repos\Dev132WPFSolution\AvalonDock\bin\Debug\AvalonDock.pdb
+C:\Users\bechir\source\repos\Dev132WPFSolution\AvalonDock\obj\Debug\AvalonDock.csproj.AssemblyReference.cache
+C:\Users\bechir\source\repos\Dev132WPFSolution\AvalonDock\obj\Debug\AvalonDock.csproj.CoreCompileInputs.cache
+C:\Users\bechir\source\repos\Dev132WPFSolution\AvalonDock\obj\Debug\AvalonDock.dll
+C:\Users\bechir\source\repos\Dev132WPFSolution\AvalonDock\obj\Debug\AvalonDock.pdb

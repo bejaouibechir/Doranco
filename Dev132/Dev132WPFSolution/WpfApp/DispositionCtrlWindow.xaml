@@ -1,0 +1,81 @@
+﻿<Window x:Class="WpfApp.DispositionCtrlWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="DispositionCtrlWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        
+        <Button Background="Red"
+                Content="Cliquez moi"
+                FontSize="20"
+                Foreground="White"
+                Margin="20,20,50,100"
+                Padding="155,65,5,0"/>
+        <!--<Button Background="Red"
+                Content="Cliquez moi"
+                Grid.RowSpan="2"
+                FontSize="20"
+                Foreground="White"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Stretch"
+                />-->
+        <StackPanel Grid.Column="1" 
+                    Background="AliceBlue"
+                    Orientation="Vertical">
+            <Border Background="Red" 
+                    Height="50"
+                    CornerRadius="20"
+                    BorderBrush="Black"
+                    BorderThickness="1"/>
+            <!--Changer la visibilité à Collapsed,Visible et Hidden-->
+            <Border Background="Blue" 
+                    Visibility="Collapsed"
+                    Height="50"
+                    CornerRadius="20"
+                    BorderBrush="Black"
+                    BorderThickness="1"/>
+            <Border Background="Green" 
+                    Height="50"
+                    CornerRadius="20"
+                    BorderBrush="Black"
+                    BorderThickness="1"/>
+            <Border Background="Yellow" 
+                    Height="50"
+                    CornerRadius="20"
+                    BorderBrush="Black"
+                    BorderThickness="1"/>
+        </StackPanel>
+        <Grid Grid.Row="1">
+            <Grid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Name="red" Header="Red" Click="Zindex_Click"/>
+                    <MenuItem Name="green" Header="Green" Click="Zindex_Click"/>
+                    <MenuItem Name="blue" Header="Blue" Click="Zindex_Click"/>
+                </ContextMenu>
+            </Grid.ContextMenu>
+            <Border Name="greenbrd"
+                    Background="Green" 
+                    BorderBrush="Black"
+                    BorderThickness="1"/>
+            <Border Name="redbrd"
+                    Background="Red" 
+                    BorderBrush="Black"
+                    BorderThickness="1"/>
+            <Border Name="bluebrd"
+                    Background="Blue" 
+                    BorderBrush="Black"
+                    BorderThickness="1"/>
+        </Grid>
+    </Grid>
+</Window>

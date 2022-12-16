@@ -1,0 +1,40 @@
+﻿<Window x:Class="WpfApp.StylesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="StylesWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Resources>
+           
+        </Grid.Resources>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        
+        <Button Grid.Column="0"
+                VerticalAlignment="Center" HorizontalAlignment="Center" 
+                Style="{StaticResource btnStyle}"
+                Height="50"
+                Width="200"
+                Content="Cliquez moi"/>
+        <Button Grid.Column="1"
+                VerticalAlignment="Center" HorizontalAlignment="Center" 
+                Style="{StaticResource btnStyle}"
+                Height="50"
+                Width="200"
+                Content="Cliquez moi"/>
+        <Button 
+            VerticalAlignment="Center" HorizontalAlignment="Center" 
+            Height="50"
+            Style="{StaticResource btnStyle}"
+                Width="200"
+               Content="Cliquez moi"
+            Grid.Column="2"/>
+
+    </Grid>
+</Window>

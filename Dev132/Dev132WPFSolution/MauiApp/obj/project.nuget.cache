@@ -1,0 +1,242 @@
+{
+  "version": 2,
+  "dgSpecHash": "rpNYvf76UYvxt6Qq2dqwKJND+dE2UF2unnxwcY29M1ysDRPdumIa66LXoMQALdCNX8fr/7VOfWdZBU5+i2H32Q==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\bechir\\source\\repos\\Dev132WPFSolution\\MauiApp\\MauiApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.graphics.win2d\\1.0.3.1\\microsoft.graphics.win2d.1.0.3.1.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.maui.dependencies\\6.0.541\\microsoft.maui.dependencies.6.0.541.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.maui.extensions\\6.0.541\\microsoft.maui.extensions.6.0.541.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.maui.graphics\\6.0.501\\microsoft.maui.graphics.6.0.501.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\6.0.501\\microsoft.maui.graphics.win2d.winui.desktop.6.0.501.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22000.194\\microsoft.windows.sdk.buildtools.10.0.22000.194.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.windowsappsdk\\1.1.3\\microsoft.windowsappsdk.1.1.3.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\system.runtime.interopservices.nfloat.internal\\6.0.1\\system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.iossimulator-x64\\6.0.11\\microsoft.netcore.app.runtime.mono.iossimulator-x64.6.0.11.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.maccatalyst-x64\\6.0.11\\microsoft.netcore.app.runtime.mono.maccatalyst-x64.6.0.11.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.11\\microsoft.netcore.app.host.win-x64.6.0.11.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.11\\microsoft.netcore.app.runtime.win-x64.6.0.11.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.11\\microsoft.aspnetcore.app.runtime.win-x64.6.0.11.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.11\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.11.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.27\\microsoft.windows.sdk.net.ref.10.0.19041.27.nupkg.sha512",
+    "C:\\Users\\bechir\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.Maui.Controls.Runtime.ios with version (= 7.0.0-rc.1.6430)\r\n  - Found 27 version(s) in nuget.org [ Nearest version: 7.0.0-rc.1.6683 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs",
+      "libraryId": "Microsoft.Maui.Controls.Runtime.ios",
+      "targetGraphs": [
+        "net6.0-ios16.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.Maui.Essentials.Ref.ios with version (= 7.0.0-rc.1.6430)\r\n  - Found 27 version(s) in nuget.org [ Nearest version: 7.0.0-rc.1.6683 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs",
+      "libraryId": "Microsoft.Maui.Essentials.Ref.ios",
+      "targetGraphs": [
+        "net6.0-ios16.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.iOS.Runtime.iossimulator-x64 with version (= 15.4.1006-rc.1)\r\n  - Found 41 version(s) in nuget.org [ Nearest version: 15.4.1029-rc.1 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs",
+      "libraryId": "Microsoft.iOS.Runtime.iossimulator-x64",
+      "targetGraphs": [
+        "net6.0-ios16.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.Maui.Core.Ref.ios with version (= 7.0.0-rc.1.6430)\r\n  - Found 27 version(s) in nuget.org [ Nearest version: 7.0.0-rc.1.6683 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs",
+      "libraryId": "Microsoft.Maui.Core.Ref.ios",
+      "targetGraphs": [
+        "net6.0-ios16.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.iOS.Ref with version (= 15.4.1006-rc.1)\r\n  - Found 41 version(s) in nuget.org [ Nearest version: 15.4.1029-rc.1 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs",
+      "libraryId": "Microsoft.iOS.Ref",
+      "targetGraphs": [
+        "net6.0-ios16.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.Maui.Essentials.Runtime.ios with version (= 7.0.0-rc.1.6430)\r\n  - Found 27 version(s) in nuget.org [ Nearest version: 7.0.0-rc.1.6683 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs",
+      "libraryId": "Microsoft.Maui.Essentials.Runtime.ios",
+      "targetGraphs": [
+        "net6.0-ios16.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.Maui.Core.Runtime.ios with version (= 7.0.0-rc.1.6430)\r\n  - Found 27 version(s) in nuget.org [ Nearest version: 7.0.0-rc.1.6683 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs",
+      "libraryId": "Microsoft.Maui.Core.Runtime.ios",
+      "targetGraphs": [
+        "net6.0-ios16.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.Maui.Controls.Ref.ios with version (= 7.0.0-rc.1.6430)\r\n  - Found 27 version(s) in nuget.org [ Nearest version: 7.0.0-rc.1.6683 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs",
+      "libraryId": "Microsoft.Maui.Controls.Ref.ios",
+      "targetGraphs": [
+        "net6.0-ios16.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.Maui.Controls.Runtime.maccatalyst with version (= 7.0.0-rc.1.6430)\r\n  - Found 27 version(s) in nuget.org [ Nearest version: 7.0.0-rc.1.6683 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs",
+      "libraryId": "Microsoft.Maui.Controls.Runtime.maccatalyst",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.4"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.Maui.Essentials.Ref.maccatalyst with version (= 7.0.0-rc.1.6430)\r\n  - Found 27 version(s) in nuget.org [ Nearest version: 7.0.0-rc.1.6683 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs",
+      "libraryId": "Microsoft.Maui.Essentials.Ref.maccatalyst",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.4"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.Maui.Core.Runtime.maccatalyst with version (= 7.0.0-rc.1.6430)\r\n  - Found 27 version(s) in nuget.org [ Nearest version: 7.0.0-rc.1.6683 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs",
+      "libraryId": "Microsoft.Maui.Core.Runtime.maccatalyst",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.4"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.Maui.Core.Ref.maccatalyst with version (= 7.0.0-rc.1.6430)\r\n  - Found 27 version(s) in nuget.org [ Nearest version: 7.0.0-rc.1.6683 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs",
+      "libraryId": "Microsoft.Maui.Core.Ref.maccatalyst",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.4"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.MacCatalyst.Ref with version (= 15.4.1006-rc.1)\r\n  - Found 40 version(s) in nuget.org [ Nearest version: 15.4.1029-rc.1 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs",
+      "libraryId": "Microsoft.MacCatalyst.Ref",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.4"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.Maui.Essentials.Runtime.maccatalyst with version (= 7.0.0-rc.1.6430)\r\n  - Found 27 version(s) in nuget.org [ Nearest version: 7.0.0-rc.1.6683 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs",
+      "libraryId": "Microsoft.Maui.Essentials.Runtime.maccatalyst",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.4"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.MacCatalyst.Runtime.maccatalyst-x64 with version (= 15.4.1006-rc.1)\r\n  - Found 40 version(s) in nuget.org [ Nearest version: 15.4.1029-rc.1 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs",
+      "libraryId": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.4"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.Maui.Controls.Ref.maccatalyst with version (= 7.0.0-rc.1.6430)\r\n  - Found 27 version(s) in nuget.org [ Nearest version: 7.0.0-rc.1.6683 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs",
+      "libraryId": "Microsoft.Maui.Controls.Ref.maccatalyst",
+      "targetGraphs": [
+        "net6.0-maccatalyst15.4"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.Maui.Controls.Ref.win with version (= 7.0.0-rc.1.6430)\r\n  - Found 27 version(s) in nuget.org [ Nearest version: 7.0.0-rc.1.6683 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs",
+      "libraryId": "Microsoft.Maui.Controls.Ref.win",
+      "targetGraphs": [
+        "net6.0-windows10.0.19041"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.Maui.Core.Runtime.win with version (= 7.0.0-rc.1.6430)\r\n  - Found 27 version(s) in nuget.org [ Nearest version: 7.0.0-rc.1.6683 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs",
+      "libraryId": "Microsoft.Maui.Core.Runtime.win",
+      "targetGraphs": [
+        "net6.0-windows10.0.19041"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.Maui.Controls.Runtime.win with version (= 7.0.0-rc.1.6430)\r\n  - Found 27 version(s) in nuget.org [ Nearest version: 7.0.0-rc.1.6683 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs",
+      "libraryId": "Microsoft.Maui.Controls.Runtime.win",
+      "targetGraphs": [
+        "net6.0-windows10.0.19041"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.Maui.Essentials.Ref.win with version (= 7.0.0-rc.1.6430)\r\n  - Found 27 version(s) in nuget.org [ Nearest version: 7.0.0-rc.1.6683 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs",
+      "libraryId": "Microsoft.Maui.Essentials.Ref.win",
+      "targetGraphs": [
+        "net6.0-windows10.0.19041"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.Maui.Core.Ref.win with version (= 7.0.0-rc.1.6430)\r\n  - Found 27 version(s) in nuget.org [ Nearest version: 7.0.0-rc.1.6683 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs",
+      "libraryId": "Microsoft.Maui.Core.Ref.win",
+      "targetGraphs": [
+        "net6.0-windows10.0.19041"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.Maui.Essentials.Runtime.win with version (= 7.0.0-rc.1.6430)\r\n  - Found 27 version(s) in nuget.org [ Nearest version: 7.0.0-rc.1.6683 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs",
+      "libraryId": "Microsoft.Maui.Essentials.Runtime.win",
+      "targetGraphs": [
+        "net6.0-windows10.0.19041"
+      ]
+    }
+  ]
+}

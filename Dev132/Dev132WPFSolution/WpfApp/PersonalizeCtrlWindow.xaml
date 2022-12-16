@@ -16,9 +16,12 @@
         <uc:NumericUpDownControl Name="updown" 
                                  Width="100"
                                  VerticalAlignment="Center" HorizontalAlignment="Center"/>
-        <cc:MonButtonControl Grid.Column="1" Content="Cliquez moi" VerticalAlignment="Center" 
-                             HorizontalAlignment="Center" Width="100"/>
-
+        <cc:PinControl Grid.Column="1" Background="Red" BorderBrush="Black"  
+                        Width="150" Height="150"
+                        VerticalAlignment="Center" HorizontalAlignment="Center">
+            
+        </cc:PinControl>
+     
         <!--<StackPanel Width="200" Height="100" VerticalAlignment="Center" HorizontalAlignment="Center" 
                     Orientation="Vertical">
             <TextBlock Text="{Binding ElementName=source,Path=Text,Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Background="AliceBlue"/>

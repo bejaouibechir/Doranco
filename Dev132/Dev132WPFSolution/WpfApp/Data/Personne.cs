@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
@@ -7,32 +8,78 @@ using System.Threading.Tasks;
 
 namespace WpfApp.Data
 {
-    public class Personne : IComparable<Personne>
+
+    public enum CompareKind
     {
-        public int Id { get; set; }
-
-
-        public string Nom { get; set; }
-
-        public double Taille { get; set; }
-
-        public double Poid { get; set; }
-
-        public int Age { get; set; }
-
-        public int CompareTo(Personne other)
+        Identifiant, Nom, Taille, Poid,Age
+    }
+    public class Personne : INotifyPropertyChanged
+    {
+        private int id;
+        private string nom;
+        private double taille;
+        private double poid;
+        private int age;
+        public Personne()
         {
-            if(Nom.Length> other.Nom.Length)
+
+        }
+        public int Id {
+            get { return id; }
+            set 
             {
-                return 1;
+                id = value;
+                OnPropertyChanged("Id");
             }
-            else if(Nom.Length< other.Nom.Length)
+        }
+
+        public string Nom 
+        {
+            get { return nom; }
+            set
             {
-                return -1;
+                nom = value;
+                OnPropertyChanged("Nom");
             }
-            else
+        }
+
+        public double Taille
+        {
+            get { return taille; }
+            set
             {
-                return 0;
+                taille = value;
+                OnPropertyChanged("Taille");
+            }
+        }
+
+        public double Poid 
+        {
+            get { return poid; }
+            set
+            {
+                poid = value;
+                OnPropertyChanged("Poid");
+            }
+        }
+
+        public int Age 
+        {
+            get { return age; }
+            set
+            {
+                age = value;
+                OnPropertyChanged("Age");
+            }
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        private void OnPropertyChanged(string propertyname)
+        {
+            if(PropertyChanged!=null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(propertyname));
             }
         }
 

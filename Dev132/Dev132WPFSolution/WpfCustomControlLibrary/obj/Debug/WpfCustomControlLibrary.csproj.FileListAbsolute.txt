@@ -11,3 +11,4 @@ C:\Users\bechir\source\repos\Dev132WPFSolution\WpfCustomControlLibrary\obj\Debug
 C:\Users\bechir\source\repos\Dev132WPFSolution\WpfCustomControlLibrary\obj\Debug\WpfCustomControlLibrary.csproj.CoreCompileInputs.cache
 C:\Users\bechir\source\repos\Dev132WPFSolution\WpfCustomControlLibrary\obj\Debug\WpfCustomControlLibrary.dll
 C:\Users\bechir\source\repos\Dev132WPFSolution\WpfCustomControlLibrary\obj\Debug\WpfCustomControlLibrary.pdb
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfCustomControlLibrary\obj\Debug\Themes\StarControl.Generic.baml

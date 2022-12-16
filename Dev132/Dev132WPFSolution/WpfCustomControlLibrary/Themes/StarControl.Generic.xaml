@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:local="clr-namespace:WpfCustomControlLibrary"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style  TargetType="{x:Type local:PinControl}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:PinControl}">
+                    <!--<Grid>
+                            <Path Data="M83.88,0.451L122.427,39C123.03,39.601,123.03,40.585,122.427,41.188L109.299,54.313C108.697,54.917,107.713,54.917,107.112,54.313L103.38,50.583 86.077,67.883C89.959,82.504 86.172,98.74 74.707,110.203 74.441,110.471 74.172,110.732 73.899,110.99 72.895,111.945 73.056,111.939 72.086,110.969L47.597,86.48 0,122.867 36.399,75.283 11.874,50.76C10.896,49.78 10.978,49.934 11.94,48.923 12.18,48.672 12.425,48.42 12.674,48.17 24.137,36.707 40.376,32.917 54.996,36.8L72.297,19.5 68.564,15.768C67.963,15.167,67.963,14.183,68.564,13.58L81.691,0.451C82.295,-0.15,83.279,-0.15,83.88,0.451L83.88,0.451z" 
+                              Fill="{TemplateBinding Background}" 
+                              Stroke="{TemplateBinding BorderBrush}"
+                              />
+                            <ContentPresenter HorizontalAlignment="Center"
+                                          VerticalAlignment="Center"/>
+                    </Grid>-->
+                        <Grid>
+                            <Ellipse Fill="{TemplateBinding Background}"
+                             Stroke="{TemplateBinding BorderBrush}" />
+                            <ContentPresenter HorizontalAlignment="Center"
+                                          VerticalAlignment="Center"/>
+
+                        </Grid>     
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

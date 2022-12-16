@@ -24,7 +24,6 @@ namespace WpfUserControlsLibrary
         public NumericUpDownControl()
         {
             InitializeComponent();
-            ValueProperty = 0;
         }
 
         /*Il ne faut pas utiliser des propriétés (CLR) comme propriétés pour un contrôle au cas où
@@ -39,27 +38,63 @@ namespace WpfUserControlsLibrary
          devront être de type propriété de dépendance 
          
          */
-        public int ValueProperty
+        //public int Value
+        //{
+        //    get { return (int)GetValue(ValueProperty); }
+        //    set { SetValue(ValueProperty, value); }
+        //}
+
+        //// Using a DependencyProperty as the backing store for ValueProperty.  This enables animation, styling, binding, etc...
+        //public static readonly DependencyProperty ValueProperty =
+        //    DependencyProperty.Register("Value", typeof(int), typeof(NumericUpDownControl), new PropertyMetadata(0));
+
+
+
+
+        public int Value
         {
-            get { return (int)GetValue(ValuePropertyProperty); }
-            set { SetValue(ValuePropertyProperty, value); }
+            get { return (int)GetValue(ValueProperty); }
+            set { SetValue(ValueProperty, value); }
         }
 
-        // Using a DependencyProperty as the backing store for ValueProperty.  This enables animation, styling, binding, etc...
-        public static readonly DependencyProperty ValuePropertyProperty =
-            DependencyProperty.Register("ValueProperty", typeof(int), typeof(NumericUpDownControl), new PropertyMetadata(0));
+        // Using a DependencyProperty as the backing store for Value.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty ValueProperty =
+            DependencyProperty.Register("Value", typeof(int), typeof(NumericUpDownControl), new PropertyMetadata(0));
+
+
+
+
+
+
+
+        public int Seuil
+        {
+            get { return (int)GetValue(SeuilProperty); }
+            set { SetValue(SeuilProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for Seuil.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty SeuilProperty =
+            DependencyProperty.Register("Seuil", typeof(int), typeof(NumericUpDownControl), new PropertyMetadata(100));
+
+
+
+
+
+
+
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             RepeatButton button = sender as RepeatButton;
             if (button.Name == "ButtonUp")
             {
-                ValueProperty++;
+                Value++;
                 TextNumber.Text = ValueProperty.ToString();
             }
             else if(button.Name == "ButtonDown")
             {
-                ValueProperty--;
+                Value--;
                 TextNumber.Text = ValueProperty.ToString();
             }
         }

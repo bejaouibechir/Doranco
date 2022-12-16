@@ -6,13 +6,45 @@
         xmlns:local="clr-namespace:WpfApp"
         xmlns:Data="clr-namespace:WpfApp.Data" x:Class="WpfApp.ItemsCtrlWindow"
         mc:Ignorable="d"
-        Loaded="Window_Loaded"
+        
         Title="ItemsCtrlWindow" Height="450" Width="800">
     <Window.Resources>
         <Data:MesCouleurs x:Key="couleurs"/>
         <Data:PersonneList x:Key="personnes"/>
+        <Data:ItemProvider x:Key="treeviewdata"/>
+<!--#region TreeView Data template -->
+     
+        <HierarchicalDataTemplate DataType="{x:Type Data:DirectoryItem}"
+                                  ItemsSource="{Binding Items}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+                <Image Width="10" Height="10" Source="/Images/folder.png" />
+                <TextBlock Grid.Column="1" 
+                           VerticalAlignment="Center" HorizontalAlignment="Center"
+                           Text="{Binding Path=Name}" ToolTip="{Binding Path=Path}" />
+            </Grid>
+        </HierarchicalDataTemplate>
+
+        <DataTemplate DataType="{x:Type Data:FileItem}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+                <Image Width="10" Height="10" Source="/Images/file.png" />
+                <TextBlock 
+                    VerticalAlignment="Center" HorizontalAlignment="Center"
+                    Grid.Column="1" Text="{Binding Path=Name}" ToolTip="{Binding Path=Path}" />
+            </Grid>
+        </DataTemplate>
+ <!--#endregion-->
+
     </Window.Resources>
     <TabControl>
+
         <TabItem Header="TreeView">
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -83,13 +115,73 @@
                 <!--#endregion-->
 
                 <!--#region  Right treeview uses itemssource-->
-                <TreeView x:Name="foldersTreeView" Grid.Column="1" Margin="20"/>
+                <TreeView x:Name="foldersTreeView" 
+                          ItemsSource="{Binding}" 
+                          Grid.Column="1" Margin="20">
+                    <TreeView.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Header="Chemin" Click="Chemin_Click"/>
+                        </ContextMenu>
+                    </TreeView.ContextMenu>
+                </TreeView>
 
 
                 <!--#endregion-->
             </Grid>
 
         </TabItem>
+        
+        <TabItem Header="ListView">
+            <ListView Name="personnelist">
+
+                <ListView.View>
+
+                    <GridView AllowsColumnReorder="true" ColumnHeaderToolTip="Employee Information">
+
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Id}" Width="100">
+                            <GridViewColumnHeader>Identifiant
+                                <GridViewColumnHeader.ContextMenu>
+                                    <ContextMenu>
+                                        <MenuItem Name="idasc" Header="Ascendant" Click="Trier_Click"/>
+                                        <MenuItem Name="iddsc" Header="Descendant" Click="Trier_Click"/>
+                                    </ContextMenu>
+                                </GridViewColumnHeader.ContextMenu>
+                            </GridViewColumnHeader>
+                        </GridViewColumn>
+
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Nom}" Width="100">
+                            <GridViewColumnHeader>Nom
+                                
+                            </GridViewColumnHeader>
+                        </GridViewColumn>
+
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Poid}"  Width="100">
+                            <GridViewColumnHeader>Poid
+                                <GridViewColumnHeader.ContextMenu>
+                                    <ContextMenu>
+                                        <MenuItem Header="Ascendant"/>
+                                        <MenuItem Header="Descendant"/>
+                                    </ContextMenu>
+                                </GridViewColumnHeader.ContextMenu>
+                            </GridViewColumnHeader>
+                        </GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Taille}" Width="100">
+                            <GridViewColumnHeader>Taille
+                                <GridViewColumnHeader.ContextMenu>
+                                    <ContextMenu>
+                                        <MenuItem Header="Ascendant"/>
+                                        <MenuItem Header="Descendant"/>
+                                    </ContextMenu>
+                                </GridViewColumnHeader.ContextMenu>
+                            </GridViewColumnHeader>
+                        </GridViewColumn>
+                    </GridView>
+
+                </ListView.View>
+            </ListView>
+        </TabItem>
+
+        
 
 
         <TabItem Header="Combo box">
@@ -228,33 +320,7 @@
             </Grid>
         </TabItem>
 
-        <TabItem Header="ListView">
-            <ListView Name="personnelist">
-
-                <ListView.View>
-
-                    <GridView AllowsColumnReorder="true" ColumnHeaderToolTip="Employee Information">
-
-                        <GridViewColumn DisplayMemberBinding="{Binding Path=Id}" Header="Identifiant" Width="100"/>
-
-                        <GridViewColumn DisplayMemberBinding="{Binding Path=Nom}" Width="100">
-                            <GridViewColumnHeader>Nom
-                                <GridViewColumnHeader.ContextMenu>
-                                    <ContextMenu Name="Trier">
-                                        <MenuItem Header="Ascending" Name="asc" Click="Trier_Click" />
-                                        <MenuItem Header="Descending" Name="dsc" Click="Trier_Click"  />
-                                    </ContextMenu>
-                                </GridViewColumnHeader.ContextMenu>
-                            </GridViewColumnHeader>
-                        </GridViewColumn>
-
-                        <GridViewColumn DisplayMemberBinding="{Binding Path=Poid}" Header="Poid" Width="100"/>
-                        <GridViewColumn DisplayMemberBinding="{Binding Path=Taille}" Header="Taille" Width="100"/>
-                    </GridView>
-
-                </ListView.View>
-            </ListView>
-        </TabItem>
+       
 
        
     </TabControl>

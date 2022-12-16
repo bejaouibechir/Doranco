@@ -50,3 +50,11 @@ C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\bin\Debug\WpfUserControlsL
 C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\bin\Debug\WpfUserControlsLibrary.pdb
 C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\bin\Debug\WpfCustomControlLibrary.dll
 C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\bin\Debug\WpfCustomControlLibrary.pdb
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\DispositionCtrlWindow.g.cs
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\DispositionCtrlWindow.baml
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\BindingWindow.g.cs
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\BindingWindow.baml
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\RelativeSourceWindow.g.cs
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\RelativeSourceWindow.baml
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\MultiColorWindow.g.cs
+C:\Users\bechir\source\repos\Dev132WPFSolution\WpfApp\obj\Debug\MultiColorWindow.baml
